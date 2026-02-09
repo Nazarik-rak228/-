@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; 
+  background-color: #f4f4f4;      
+  color: #333;                    
+}
+
+header {
+  background-color: #007bff;       
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;                /* убираем точки у списка */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;                 /* пункты меню в ряд */
+  margin: 0 15px;                  /* расстояние между пунктами */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;           
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;      /* подчёркивание при наведении */
+}
+
+/* Основной контент */
+main {
+  max-width: 800px;                /* не шире 800px, чтобы удобно читать */
+  margin: 20px auto;               /* центрируем */
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);  /* лёгкая тень для вида */
+}
+
+/* Заголовки */
+h1, h2 {
+  text-align: center;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;          /* поля формы друг под другом */
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;              /* скруглённые углы */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;                 /* рука при наведении */
+}
+
+button:hover {
+  background-color: #0056b3;       /* темнее при наведении */
+}
+footer {
+  background-color: #007bff;      /* тот же синий, что и шапка */
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 50px;               /* отступ от контента */
+  font-size: 14px;
+}
+
+/* Адаптив для мобильок (если экран <600px) */
+@media (max-width: 600px) {
+  main {
+    padding: 10px;
+  }
+
+  nav ul li {
+    display: block;                /* меню вертикально на мобилке */
+    margin: 10px 0;
+  }
+}

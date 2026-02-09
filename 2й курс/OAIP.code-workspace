@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "OAIP"
+		},
+		{
+			"path": "Java Web"
+		},
+		{
+			"path": "Mobile application development"
+		},
+		{
+			"path": "Yushina"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Yushina"
+	}
+}

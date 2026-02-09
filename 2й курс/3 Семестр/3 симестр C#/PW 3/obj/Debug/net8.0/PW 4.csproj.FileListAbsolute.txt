@@ -1,0 +1,14 @@
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\bin\Debug\net8.0\PW 4.exe
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\bin\Debug\net8.0\PW 4.deps.json
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\bin\Debug\net8.0\PW 4.runtimeconfig.json
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\bin\Debug\net8.0\PW 4.dll
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\bin\Debug\net8.0\PW 4.pdb
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\obj\Debug\net8.0\PW 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\obj\Debug\net8.0\PW 4.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\obj\Debug\net8.0\PW 4.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\obj\Debug\net8.0\PW 4.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\obj\Debug\net8.0\PW 4.dll
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\obj\Debug\net8.0\refint\PW 4.dll
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\obj\Debug\net8.0\PW 4.pdb
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\obj\Debug\net8.0\PW 4.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\PW 4\obj\Debug\net8.0\ref\PW 4.dll

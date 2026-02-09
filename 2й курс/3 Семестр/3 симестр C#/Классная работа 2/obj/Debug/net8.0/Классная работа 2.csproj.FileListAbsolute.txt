@@ -1,0 +1,14 @@
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\bin\Debug\net8.0\Классная работа 2.exe
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\bin\Debug\net8.0\Классная работа 2.deps.json
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\bin\Debug\net8.0\Классная работа 2.runtimeconfig.json
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\bin\Debug\net8.0\Классная работа 2.dll
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\bin\Debug\net8.0\Классная работа 2.pdb
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\obj\Debug\net8.0\Классная работа 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\obj\Debug\net8.0\Классная работа 2.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\obj\Debug\net8.0\Классная работа 2.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\obj\Debug\net8.0\Классная работа 2.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\obj\Debug\net8.0\Классная работа 2.dll
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\obj\Debug\net8.0\refint\Классная работа 2.dll
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\obj\Debug\net8.0\Классная работа 2.pdb
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\obj\Debug\net8.0\Классная работа 2.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Классная работа 2\obj\Debug\net8.0\ref\Классная работа 2.dll

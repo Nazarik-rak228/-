@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp5
+{
+    internal class Program
+    {
+        static int Summ(int a, int b)
+        {
+            return a + b;
+        }
+        static void Main(string[] args)
+        {
+            int z = 0;
+            Console.WriteLine("Первое значение");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Второе значение");
+            int y = Convert.ToInt32(Console.ReadLine());
+            z = Summ(x, y);
+            Console.WriteLine("Результат = " + z);
+            Console.ReadLine();
+        }
+    }
+}

@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "f346fec600b574db",
+    "type": "split",
+    "children": [
+      {
+        "id": "d022fee05fae36d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68bdc920b4395f3e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "java/java PNG/Pasted image 20260206121328.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260206121328"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f6233bd0274eb0f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "309b1d7a8e0b44d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38c4cf063395b6d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "4a8c59431142d02c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "707be9e7f87fadf6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9e80dd64fc23b1d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "3cee345247607c6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7aabc8b645546497",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "лекции БД/Основы проектирования баз данных/БД обучение.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для БД обучение"
+            }
+          },
+          {
+            "id": "76b623a952f400d5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "48d71b75b89a1d1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "edfec73bc0e7948a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "лекции БД/Основы проектирования баз данных/БД обучение.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура БД обучение"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "38c4cf063395b6d6",
+  "lastOpenFiles": [
+    "java/java PNG/Pasted image 20260206121234.png",
+    "java/java PNG/Pasted image 20260206121148.png",
+    "java/ООП.md",
+    "java/java PNG/Pasted image 20260206121644.png",
+    "java/java PNG/Pasted image 20260206121611.png",
+    "java/java PNG/Pasted image 20260206121517.png",
+    "java/java PNG/Pasted image 20260206121442.png",
+    "java/java PNG/Pasted image 20260206121328.png",
+    "java/Джава классы.md",
+    "java/Лекция 4 Джава.md",
+    "java/Лекция 1 джава.md",
+    "Стандартизация, сертификация и тех документоведение/Практос 2.md",
+    "Стандартизация, сертификация и тех документоведение/Лекция 2.md",
+    "Асис/Pasted image 20260122122551.png",
+    "Асис/Лекция 1 Асис.md",
+    "Асис/{2B349F6F-15CB-4D2D-AE58-53758329ACF4}.png",
+    "Асис/Батники Л2.md",
+    "Компьютерные сети/Вводная лекция 1 КС.md",
+    "Компьютерные сети/Тополия сетей.md",
+    "Компьютерные сети/Лекция 2 КС.md",
+    "Компьютерные сети/кратко.md",
+    "Компьютерные сети/{2A9CBB8E-B782-4B53-8935-7CF9774DAAAF} 1.png",
+    "Психология/Лекция 3,ПсихЩбщ.md",
+    "Психология/Л2По.md",
+    "Психология/Психологические аспекты общения Л1.md",
+    "Питон/пОЛИМОРФИЗМ.md",
+    "Психология/Без названия.md",
+    "Питон/Методы 2.md",
+    "Питон/Объектно ориентированное програмирование 1.md",
+    "Java spring/Лекция 1 Spring.md",
+    "Английский/вопросы в Англ.ЯзЛекция.md",
+    "Английский/Вопросы к тексту.md",
+    "МДК Степаньков/На пару.md",
+    "МДК Степаньков/Лекция МДК CI CD.md",
+    "Психология/Эссе 1-2.md",
+    "Java spring",
+    "Асис",
+    "Психология",
+    "ASP.NET",
+    "МДК Степаньков",
+    "java/java PNG",
+    "Питон/фотоПитон",
+    "Компьютерные сети",
+    "Английский",
+    "Стандартизация, сертификация и тех документоведение"
+  ]
+}

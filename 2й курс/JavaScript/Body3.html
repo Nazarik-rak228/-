@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оценки и числа</title>
+</head>
+<body>
+
+    <script>
+        console.log("Напишите ваш балл");
+
+
+        let ball = parseInt(prompt("Введите балл (0–100)"));
+
+        if (isNaN(ball) || ball < 0 || ball > 100) 
+        {
+            console.log("Некорректный ввод");
+        } 
+        else 
+        {
+            if (ball >= 90) {
+                console.log("Ваша оценка: отлично");
+            } else if (ball >= 75) {
+                console.log("Ваша оценка: хорошо");
+            } else if (ball >= 60) {
+                console.log("Ваша оценка: удовлетворительно");
+            } else {
+                console.log("Ваша оценка: неудовлетворительно");
+            }
+        }
+
+        console.log("----------------------------------------------------------------------------");
+
+        console.log("Введите два числа");
+
+        let first  = parseInt(prompt("первое число"));
+        let second = parseInt(prompt("второе число"));
+         
+        let count = 0;
+
+        while (first !== second) {
+            if (first > second) 
+            {
+                first -= second;  
+                count++;
+            } else 
+            {
+                second -= first;  
+                count++;
+            }
+        }
+
+            console.log("Количество вычитаний:", count);
+            console.log("Наибольший общий делитель:", first);
+        console.log("----------------------------------------------------------------------------");
+        let number = parseInt(prompt("Введите число:"), );
+        let sum = 0;
+        let n = Math.abs(number); 
+
+        while (n > 0) {
+            sum += n % 10;           
+            n = Math.floor(n / 10);  
+        }
+
+        console.log(`Число: ${number}`);
+        console.log(`Сумма цифр: ${sum}`);
+
+        console.log("----------------------------------------------------------------------------");            
+            for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log("FizzBuzz");
+        }
+        else if (i % 3 === 0) {
+            console.log("Fizz");
+        }
+        else if (i % 5 === 0) {
+            console.log("Buzz");
+        }
+        else {
+            console.log(i);
+        }
+        }  
+
+         
+        console.log("----------------------------------------------------------------------------");
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\bin\Debug\net8.0\Строки лекция.exe
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\bin\Debug\net8.0\Строки лекция.deps.json
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\bin\Debug\net8.0\Строки лекция.runtimeconfig.json
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\bin\Debug\net8.0\Строки лекция.dll
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\bin\Debug\net8.0\Строки лекция.pdb
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\obj\Debug\net8.0\Строки лекция.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\obj\Debug\net8.0\Строки лекция.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\obj\Debug\net8.0\Строки лекция.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\obj\Debug\net8.0\Строки лекция.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\obj\Debug\net8.0\Строки лекция.dll
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\obj\Debug\net8.0\refint\Строки лекция.dll
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\obj\Debug\net8.0\Строки лекция.pdb
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\obj\Debug\net8.0\Строки лекция.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\2й курс\ОАИП Андрей Андреевич\Строки лекция\obj\Debug\net8.0\ref\Строки лекция.dll
