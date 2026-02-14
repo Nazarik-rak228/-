@@ -1,35 +1,108 @@
 import os
+from abc import ABC, abstractmethod
 
 
-# Абстрактный класс 
-class Person:
+class Person(ABC):
     def __init__(self, name):
         self.name = name
 
+    @abstractmethod
     def menu(self):
         pass  
 
 
-# Класс Книга (Инкапсуляция через простые атрибуты + метод)
+
 class Book:
     def __init__(self, title, author):
-        self.title = title.strip()
-        self.author = author.strip()
-        self.status = "доступна"          # доступна / выдана
-        self.borrowed_by = None           # кто взял (имя пользователя или None)
+        self.__title = title.strip()
+        self.__author = author.strip()
+        self.__status = "доступна"          
+        self.__borrowed_by = None           
+
+    @property
+    def title(self):
+        return self.__title
+
+    @property
+    def author(self):
+        return self.__author
+
+    @property
+    def status(self):
+        return self.__status
+
+    @status.setter
+    def status(self, value):
+        if value not in ("доступна", "выдана"):
+            raise ValueError("Статус может быть только 'доступна' или 'выдана'")
+        self.__status = value
+
+    @property
+    def borrowed_by(self):
+        return self.__borrowed_by
+
+    @borrowed_by.setter
+    def borrowed_by(self, value):
+        self.__borrowed_by = value
 
     def __str__(self):
-        if self.status == "доступна":
-            return f'"{self.title}" — {self.author} (доступна)'
+        if self.__status == "доступна":
+            return f'"{self.__title}" — {self.__author} (доступна)'
         else:
-            return f'"{self.title}" — {self.author} (выдана {self.borrowed_by})'
+            borrowed = self.__borrowed_by if self.__borrowed_by else "кем-то"
+            return f'"{self.__title}" — {self.__author} (выдана {borrowed})'
 
 
-# Пользователь (Наследование + Полиморфизм)
+
 class User(Person):
     def __init__(self, name):
         super().__init__(name)
-        self.borrowed = []  # список взятых книг
+        self.borrowed = []  
+
+    def show_my_books(self):
+        if not self.borrowed:
+            print("У вас нет книг")
+            return
+        print(f"\nКниги читателя {self.name}:")
+        for i, b in enumerate(self.borrowed, 1):
+            print(f"{i}. {b.title}")
+
+    def take_book(self):
+        avail = [b for b in books if b.status == "доступна"]
+        if not avail:
+            print("Нет доступных книг")
+            return
+
+        show_available()
+        try:
+            n = int(input("Номер книги: "))
+            if 1 <= n <= len(avail):
+                book = avail[n-1]
+                book.status = "выдана"
+                book.borrowed_by = self.name
+                self.borrowed.append(book)
+                print(f"Вы взяли: {book.title}")
+            else:
+                print("Неверный номер")
+        except ValueError:
+            print("Введите число")
+
+    def return_book(self):
+        self.show_my_books()
+        if not self.borrowed:
+            return
+        try:
+            n = int(input("Номер книги для возврата: "))
+            if 1 <= n <= len(self.borrowed):
+                book = self.borrowed[n-1]
+                book.status = "доступна"
+                book.borrowed_by = None
+                self.borrowed.remove(book)
+                print(f"Книга {book.title} возвращена")
+            else:
+                print("Неверный номер")
+        except ValueError:
+            print("Введите число")
 
     def menu(self):
         while True:
@@ -41,16 +114,81 @@ class User(Person):
             print("0. Выход")
             choice = input("→ ")
 
-            if choice == "0": break
-            elif choice == "1": show_available()
-            elif choice == "2": take_book(self)
-            elif choice == "3": return_book(self)
-            elif choice == "4": show_my_books(self)
-            else: print("Неверный выбор")
+            if choice == "0":
+                break
+            elif choice == "1":
+                show_available()
+            elif choice == "2":
+                self.take_book()
+            elif choice == "3":
+                self.return_book()
+            elif choice == "4":
+                self.show_my_books()
+            else:
+                print("Неверный выбор")
 
 
-# Библиотекарь (Полиморфизм — другой menu)
+
 class Librarian(Person):
+    def add_book(self):
+        title = input("Название: ").strip()
+        author = input("Автор: ").strip()
+        if not title or not author:
+            print("Заполните оба поля")
+            return
+        if any(b.title.lower() == title.lower() for b in books):
+            print("Такая книга уже есть")
+            return
+        books.append(Book(title, author))
+        print("Книга добавлена")
+
+    def show_all_books(self):
+        if not books:
+            print("Книг пока нет")
+            return
+        print("\nВсе книги в библиотеке:")
+        for i, b in enumerate(books, 1):
+            print(f"{i}. {b}")
+            
+    def remove_book(self):
+        show_all_books()
+        if not books:
+            return
+        try:
+            n = int(input("Номер книги для удаления: "))
+            if 1 <= n <= len(books):
+                book = books[n-1]
+                if book.status == "выдана":
+                    print("Книгу нельзя удалить — она на руках")
+                    return
+                books.remove(book)
+                print("Книга удалена")
+            else:
+                print("Неверный номер")
+        except ValueError:
+            print("Введите число")
+
+    def register_user(self):
+        name = input("Имя нового читателя: ").strip()
+        if not name:
+            print("Имя не может быть пустым")
+            return
+        if any(u.name.lower() == name.lower() for u in users):
+            print("Такой читатель уже есть")
+            return
+        users.append(User(name))
+        print(f"Читатель {name} зарегистрирован")
+
+    
+
+    def show_users(self):
+        if not users:
+            print("Читателей нет")
+            return
+        print("\nЗарегистрированные читатели:")
+        for i, u in enumerate(users, 1):
+            print(f"{i}. {u.name}")
+
     def menu(self):
         while True:
             print(f"\n=== {self.name} (библиотекарь) ===")
@@ -62,22 +200,29 @@ class Librarian(Person):
             print("0. Выход")
             choice = input("→ ")
 
-            if choice == "0": break
-            elif choice == "1": add_book()
-            elif choice == "2": remove_book()
-            elif choice == "3": register_user()
-            elif choice == "4": show_users()
-            elif choice == "5": show_all_books()
-            else: print("Неверный выбор")
+            if choice == "0":
+                break
+            elif choice == "1":
+                self.add_book()
+            elif choice == "2":
+                self.remove_book()
+            elif choice == "3":
+                self.register_user()
+            elif choice == "4":
+                self.show_users()
+            elif choice == "5":
+                self.show_all_books()
+            else:
+                print("Неверный выбор")
 
 
-# Глобальные списки - а то не будут доступны где то вдруг
+# Глобальные списки
 books = []
 users = []
 librarians = []
 
 
-# ─── Файлы ────────────────────────────────────────────────
+
 def load():
     global books, users, librarians
 
@@ -85,12 +230,16 @@ def load():
         with open("books.txt", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
-                if not line: continue
-                title, author, status, borrowed_by = line.split("|")
-                b = Book(title, author)
-                b.status = status.strip()
-                b.borrowed_by = borrowed_by.strip() if borrowed_by.strip() else None
-                books.append(b)
+                if not line:
+                    continue
+                try:
+                    title, author, status, borrowed_by = line.split("|", 3)
+                    b = Book(title, author)
+                    b.status = status.strip()
+                    b.borrowed_by = borrowed_by.strip() or None
+                    books.append(b)
+                except:
+                    continue  # пропускаем битые строки
 
     if os.path.exists("users.txt"):
         with open("users.txt", encoding="utf-8") as f:
@@ -122,7 +271,6 @@ def save():
             f.write(f"{l.name}\n")
 
 
-# -------------------------действия для людей---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 def show_available():
     avail = [b for b in books if b.status == "доступна"]
     if not avail:
@@ -133,112 +281,7 @@ def show_available():
         print(f"{i}. {b}")
 
 
-def show_all_books():
-    if not books:
-        print("Книг пока нет")
-        return
-    print("\nВсе книги:")
-    for i, b in enumerate(books, 1):
-        print(f"{i}. {b}")
 
-
-def show_users():
-    if not users:
-        print("Читателей нет")
-        return
-    print("\nЧитатели:")
-    for i, u in enumerate(users, 1):
-        print(f"{i}. {u.name}")
-
-
-def show_my_books(user):
-    if not user.borrowed:
-        print("У вас нет книг")
-        return
-    print("\nВаши книги:")
-    for i, b in enumerate(user.borrowed, 1):
-        print(f"{i}. {b.title}")
-
-
-def add_book():
-    title = input("Название: ").strip()
-    author = input("Автор: ").strip()
-    if not title or not author:
-        print("Заполните оба поля")
-        return
-    if any(b.title.lower() == title.lower() for b in books):
-        print("Такая книга уже есть")
-        return
-    books.append(Book(title, author))
-    print("Книга добавлена")
-
-
-def remove_book():
-    show_all_books()
-    if not books: return
-    try:
-        n = int(input("Номер книги для удаления: "))
-        if 1 <= n <= len(books):
-            book = books[n-1]
-            if book.status == "выдана":
-                print("Книгу нельзя удалить — она на руках")
-                return
-            books.remove(book)
-            print("Книга удалена")
-        else:
-            print("Неверный номер")
-    except:
-        print("Введите число")
-
-
-def register_user():
-    name = input("Имя нового читателя: ").strip()
-    if not name:
-        print("Имя не может быть пустым")
-        return
-    if any(u.name.lower() == name.lower() for u in users):
-        print("Такой читатель уже есть")
-        return
-    users.append(User(name))
-    print(f"Читатель {name} зарегистрирован")
-
-
-def take_book(user):
-    show_available()
-    avail = [b for b in books if b.status == "доступна"]
-    if not avail: return
-    try:
-        n = int(input("Номер книги: "))
-        if 1 <= n <= len(avail):
-            book = avail[n-1]
-            book.status = "выдана"
-            book.borrowed_by = user.name
-            user.borrowed.append(book)
-            print(f"Вы взяли: {book.title}")
-        else:
-            print("Неверный номер")
-    except:
-        print("Введите число")
-
-
-def return_book(user):
-    show_my_books(user)
-    if not user.borrowed: return
-    try:
-        n = int(input("Номер книги для возврата: "))
-        if 1 <= n <= len(user.borrowed):
-            book = user.borrowed[n-1]
-            book.status = "доступна"
-            book.borrowed_by = None
-            user.borrowed.remove(book)
-            print(f"Книга {book.title} возвращена")
-        else:
-            print("Неверный номер")
-    except:
-        print("Введите число")
-
-
-# ─── Главное меню ─────────────────────────────────────────
 def main():
     load()
 
@@ -266,6 +309,9 @@ def main():
             break
 
         elif role == "1":
+            if not librarians:
+                print("Библиотекарей нет")
+                continue
             print("\nБиблиотекари:")
             for i, lib in enumerate(librarians, 1):
                 print(f"{i}. {lib.name}")
@@ -275,7 +321,7 @@ def main():
                     librarians[n-1].menu()
                 else:
                     print("Нет такого")
-            except:
+            except ValueError:
                 print("Введите число")
 
         elif role == "2":
@@ -291,7 +337,7 @@ def main():
                     users[n-1].menu()
                 else:
                     print("Нет такого")
-            except:
+            except ValueError:
                 print("Введите число")
 
     save()

@@ -2,32 +2,43 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif; 
-  background-color: #f4f4f4;      
-  color: #333;                    
+  background-color: #4d4d4d;      
+  color: #ffffff;                    
+  min-height: 900px;
 }
 
 header {
-  background-color: #007bff;       
+  background-color: rgb(175, 120, 0);       
   color: white;
   padding: 15px;
-  text-align: center;
+  text-align: left;
+    border: 2px solid yellow;
+
+  border-radius: 20px;
+}
+img{
+  height: 30px;
+  width: 30px;
 }
 
-nav ul {
-  list-style: none;                /* убираем точки у списка */
+
+nav ul {              /* убираем точки у списка */
   padding: 0;
   margin: 0;
 }
 
 nav ul li {
   display: inline;                 /* пункты меню в ряд */
-  margin: 0 15px;                  /* расстояние между пунктами */
+  margin: 0 15px;   
+  margin-bottom: 0 ;
+  margin-top: 0;              /* расстояние между пунктами */
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;           
   font-weight: bold;
+
 }
 
 nav ul li a:hover {
@@ -39,7 +50,10 @@ main {
   max-width: 800px;                /* не шире 800px, чтобы удобно читать */
   margin: 20px auto;               /* центрируем */
   padding: 20px;
-  background-color: white;
+  border: 2px solid yellow;
+  border-radius: 20px;
+  min-height: 600px;
+  background-color: #4d4d4d;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);  /* лёгкая тень для вида */
 }
 
@@ -60,30 +74,54 @@ input, button {
   margin: 10px 0;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;              /* скруглённые углы */
+  border: 2px solid yellow;
+  border-radius: 20px;   
+         
 }
 
 button {
-  background-color: #007bff;
+  background-color: rgb(175, 120, 0);
   color: white;
-  border: none;
-  cursor: pointer;                 /* рука при наведении */
+    border: 2px solid yellow;
+  border-radius: 20px;
+  cursor: pointer;                
 }
 
 button:hover {
-  background-color: #0056b3;       /* темнее при наведении */
+  background-color: yellow;       
+  color: black;
+  transform: scale(1.03);
+  border: solid black;
+  font-size: large;
 }
 footer {
-  background-color: #007bff;      /* тот же синий, что и шапка */
-  color: white;
+  background-color:rgb(175, 120, 0);      
+  color: black;
   text-align: center;
-  padding: 25px 15px;
-  margin-top: 50px;               /* отступ от контента */
+  padding: 5PX auto;
+  width: 100%;
+  height: 40PX;     
   font-size: 14px;
+  position: fixed;
+  bottom: 0;
+    border: 2px solid yellow;
+  border-radius: 20px;
+    display:flex;
+   flex-wrap:wrap;
+   justify-content: center;
 }
 
-/* Адаптив для мобильок (если экран <600px) */
+footer div{
+display: flex;
+  flex-wrap: wrap;           
+  gap: 24px;                 
+  justify-content: center;   
+  align-items: center;
+}
+footer div a:hover{
+  color: yellow;
+  text-decoration: underline;
+}
 @media (max-width: 600px) {
   main {
     padding: 10px;
@@ -93,4 +131,38 @@ footer {
     display: block;                /* меню вертикально на мобилке */
     margin: 10px 0;
   }
+}
+
+a {
+  text-decoration: none;     /* убирает подчёркивание */
+  color: inherit;           /* берёт цвет от родителя */
+}
+.task-card{
+  border: 3px solid yellow; 
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  min-height: 260px;          
+  padding: 1.4rem;
+  border-radius: 30px;
+}
+.task-card:hover{
+  transform: scale(1.03);
+
+}
+
+.price{
+  color:yellow;
+}
+.price:hover{
+  color:yellowgreen;
+}
+.search-bar input{
+  width: 85%;
+}
+.search-bar{
+  text-align: center;
+}
+.take-task-btn{
+  margin-top:50px ;
 }

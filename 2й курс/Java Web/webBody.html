@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <link rel="icon" href="TaskHubLogo.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="javaStyle.css"rel="stylesheet"/>
     <title>TaskHub</title>
 </head>
 <body>
+    
    <header>
     <nav>
-      <ul>
+      <ul>  
+        <li><img  src ="TaskHubLogo.png" alt="Похоже, логотип сломался..."></li>    
         <li><a href="webBody.html">Главная</a></li>
         <li><a href="register.html">Регистрация</a></li>
         <li><a href="login.html">Вход</a></li>
         <li><a href="profile.html">Профиль</a></li>
-        <li><a href="create-task.html" class="btn primary">+ Разместить задание</a></li>
       </ul>
     </nav>
   </header>
@@ -22,73 +24,76 @@
   <main>
     <h1>Доступные задания для фрилансеров</h1>
     <p>Здесь вы можете найти задания. Зарегистрируйтесь, чтобы взять их.</p>
-    <div class="taskBlock">
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
-        <p>В разработке...</p>
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Поиск заданий по названию, описанию...">
+        <button id="search-btn">Найти</button>
+    </div>
+    <div class="task-list" id="task-container">
+
+        <div class="task-card" data-task-id="101" data-category="design">
+            <h2>Создание логотипа и фирменного стиля</h2>
+            <p class="description">Нужен современный минималистичный логотип + 3 варианта цветового решения для IT-стартапа. Очень желательно портфолио с похожими работами.</p>
+            <div class="task-meta">
+                <span>Срок: 7 дней</span>
+                <span class="price">7 500 ₽</span>
+            </div>
+            <button class="take-task-btn" data-action="take">Взять в работу</button>
+        </div>
+
+        <div class="task-card" data-task-id="102" data-category="writing">
+            <h2>Написание SEO-статьи 4000+ сомволов</h2>
+            <p class="description">Тема: «Как выбрать хороший ноутбук в 2026 году». Требуется 100% уникальность, грамотный русский, подзаголовки, списки.</p>
+            <div class="task-meta">
+                <span>Срок: 4 дня</span>
+                <span class="price">3 200 ₽</span>
+            </div>
+            <button class="take-task-btn" data-action="take">Взять в работу</button>
+        </div>
+
+
+        <div class="task-card" data-task-id="103" data-category="frontend">
+            <h2>Адаптивная верстка лендинга (Figma → HTML+CSS+JS)</h2>
+            <p class="description">Есть готовый макет в Figma. Нужно сверстать чисто, семантично, с анимациями при скролле.</p>
+            <div class="task-meta">
+                <span>Срок: 10 дней</span>
+                <span class="price">18 000 ₽</span>
+            </div>
+            <button class="take-task-btn" data-action="take">Взять в работу</button>
+        </div>
+        <div class="task-card" data-task-id="104" data-category="backend">
+            <h2>Полноценный сайт на фреймворке ASP.NET</h2>
+            <p class="description">Нужно разработать полноценный сайт с привязкой нашей базы данных</p>
+            <div class="task-meta">
+                <span>Срок: 10 дней</span>
+                <span class="price">21 000 ₽</span>
+            </div>
+            <button class="take-task-btn" data-action="take">Взять в работу</button>
+        </div>
+        <div class="task-card" data-task-id="105" data-category="design">
+            <h2>Текстуры для игры</h2>
+            <p class="description">Нужно затекстурить 4 модели разной сложности в стиле киберпанка ^_^</p>
+            <div class="task-meta">
+                <span>Срок: 4 дня</span>
+                <span class="price">4500 ₽</span>
+            </div>
+            <button class="take-task-btn" data-action="take">Взять в работу</button>
+        </div>
+        <div>
+          <p>Больше заданий нет...</p>
+        </div>
+
     </div>
     
   </main>
     
 </body>
 <footer>
-  <p>© 2026 Freelance Tasks</p>
+  <div >
+      <a href="profile.html">О нас</a>
+      <a href="profile.html">Политика конфиденциальности</a>
+      <p>© 2026 Freelance Tasks</p>
+
+  </div>
+  
 </footer>
 </html>
