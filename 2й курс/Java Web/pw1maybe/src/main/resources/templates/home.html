@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/sas">sas</a>
+    <p>пытаемся в spring</p>
+    <form method="get" action="/sas">
+        <input type="submit" value="переход">
+    </form>
+
+
+    <form method="post" action="/home">
+        <input type="input" name="TextPrint">
+        <input type="submit" value="Отправить">
+    </form>
+    
+
+
+    <h1 th:Text="${Text}"> ВОТ ЧТО ВЫ ВВЕЛИ</h1>
+</body>
+</html>

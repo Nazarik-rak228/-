@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PW7C#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21e30ac54bca85843033d2ddce5d7475ae8f5018")]
 [assembly: System.Reflection.AssemblyProductAttribute("PW7C#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PW7C#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

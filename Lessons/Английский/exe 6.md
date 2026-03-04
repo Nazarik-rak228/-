@@ -1,0 +1,10 @@
+- I **have written** a new story and **have recently published** it in a magazine.
+- We **watched** an amazing film last week which **has already collected** / **has already won** many awards.
+- She **has studied** all the materials and **still hasn’t found** an answer to her question.
+- Our school football team **has already won** several matches this season.
+- He **has visited** many countries in his life. The last time he **was** in Japan.
+- We **have finally finished** the project which we **started** last year.
+- **Have you read** the book? — The one you **gave** me last week? — Yes.
+- She **has bought** a new dress but **hasn’t worn** it yet.
+- Mum **has cooked** dinner and **has just served** it on the table.
+- **Have you already decided** where you **are going** on holiday? — Not yet, although I **thought** about it yesterday.
