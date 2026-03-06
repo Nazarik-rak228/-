@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <style>
+
+
+        body{
+            font-family: 'Times New Roman', serif; padding: 16px;
+            background: rgb(201, 178, 120);
+        }
+        #input{
+            padding: 6px 8px;
+            width: 260px;
+        }
+        button{
+            padding:6px 18px;
+            cursor: pointer;
+        }
+        .row{
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .done{
+            text-decoration: line-through;
+            opacity: 0.7;
+
+        }
+        .task{
+            padding: 6px 8px;
+            border: 1px solid #ddd;
+            margin: 6px;
+            border-radius: 6px;
+            
+        }
+        .meta{
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .hint{
+            font-size: 10px;
+            opacity: 0.75;
+            margin-top: 5px;
+        }
+        .active{background: rgb(144, 202, 133);}
+    </style>
+</head>
+<body>
+    <h1 id="title">===Task list===</h1>
+    <div class="row">
+        
+        <input id="input" placeholder="you task...">
+        <button id="clear">clear</button>
+        <button id="add">Add task</button>
+</div>
+<div class="meta">
+        <div id="count">Task count: 0 . Complate: 0</div>
+        <div class="hint">Click for complate task, double click: remove task</div>
+</div>
+    <ul id="list"> </ul>
+    <script src="less.js"></script>
+    =============================================================================================================================================================================================================================================
+
+    
+    
+    
+    
+
+
+
+
+
+</body>
+</html>
