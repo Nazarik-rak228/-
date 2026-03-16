@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    body{
+      text-align: center;
+      font-family: "Segoe UI Emoji";
+      font-size: large;
+      background: dimgray;
+      color: yellow;
+    }
+    a{
+      border: solid 5px yellow;
+      border-radius: 20px;
+      padding:20px 10px;
+      text-decoration: none;
+      cursor: pointer;
+      color: yellow;
+    }
+    form{
+      border: solid 5px yellow;
+      border-radius: 20px;
+      padding:20px 10px;
+      text-decoration: none;
+      cursor: pointer;
+
+    }
+  </style>
+</head>
+<body>
+<h2>Конвертер валют</h2>
+
+<form action="/convert" method="post">
+
+  <input type="number" name="amount">
+
+  <select name="from">
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="GBP">GBP</option>
+  </select>
+
+  <select name="to">
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="GBP">GBP</option>
+  </select>
+
+  <button type="submit">Convert</button>
+
+</form>
+</body>
+</html>

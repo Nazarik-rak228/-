@@ -1,0 +1,28 @@
+﻿@model IEnumerable<powtorBD.Models.Colour>
+<h1> емае, та тут же цвета</h1>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Цвет</th>
+            <th>Bpvtybnm</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach(var m in Model)
+        {
+            <tr>
+                <td>@m.IdColour</td>
+                <td>@m.Title</td>
+                <td><a asp-action="Edit" asp-route-id="@m.IdColour">Bpvtybnm</a></td>
+                <td><a asp-action="Remove" asp-route-id="@m.IdColour">delete</a></td>
+
+            </tr>
+            
+
+        }
+
+    </tbody>
+    <a asp-action="Create">Новая запись</a>
+</table>

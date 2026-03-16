@@ -1,0 +1,29 @@
+﻿@model IEnumerable<IhateThisErrorsAndBug.Models.Product>
+@{
+    var categories = ViewBag.Categories as IEnumerable<IhateThisErrorsAndBug.Models.Category>;
+}
+<h1> Вы смотрите наш список товаров : ) </h1>
+<div class="ProductsList">
+    <table>
+        <thead>
+            <tr>
+                <th>Название</th>
+                <th>Категория</th>
+                <th>Цена</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var p in Model)
+            {
+                var cat = categories.FirstOrDefault(c => c.CategoryId == p.CategoryId)?.CategoryName ?? "-";
+                <tr> 
+                    <td>@p.ProductName</td>
+                    <td>@cat</td>
+                    <td>@p.Price</td>
+                    <td class="tda"><a class-"add" asp-controller="Main" asp-action="Add" asp-route-productId="@p.ProductId">Добавить в корзину</a></td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

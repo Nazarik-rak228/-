@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\S2l4forPW9",
-    "\\S2l4forPW9\\S2l4forPW9"
+    "\\S2l4forPW9\\S2l4forPW9",
+    "\\secondTry",
+    "\\secondTry\\secondTry"
   ],
-  "SelectedNode": "\\S2l4forPW9\\S2l4forPW9\\Program.cs",
+  "SelectedNode": "\\secondTry\\secondTry\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }

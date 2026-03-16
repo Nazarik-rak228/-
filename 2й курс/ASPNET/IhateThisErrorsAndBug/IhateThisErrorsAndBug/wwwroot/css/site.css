@@ -1,0 +1,247 @@
+/* --- Общие настройки --- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #3a3a3a; /* чуть темнее фон для контраста */
+    color: #ffffff;
+    min-height: 900px;
+    line-height: 1.6;
+}
+
+/* --- Шапка сайта --- */
+header {
+    background-color: #af7800;
+    color: white;
+    padding: 15px 30px;
+    text-align: left;
+    border: 2px solid #ffd700; /* золотой */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+    header img {
+        height: 35px;
+        width: 35px;
+    }
+
+/* --- Навигация --- */
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+                color: #ffd700;
+            }
+
+/* --- Основной контент --- */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid #ffd700;
+    border-radius: 20px;
+    min-height: 600px;
+    background-color: #4d4d4d;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+/* --- Заголовки --- */
+h1, h2 {
+    text-align: center;
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+/* --- Формы --- */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ffd700;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #af7800;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+    button:hover {
+        background-color: #ffd700;
+        color: #000000;
+        transform: scale(1.05);
+        border: 2px solid #000000;
+    }
+
+/* --- Footer --- */
+footer {
+    background-color: #af7800;
+    color: #000000;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    border: 2px solid #ffd700;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    footer div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+
+        footer div a:hover {
+            color: #ffd700;
+            text-decoration: underline;
+        }
+
+/* --- Адаптив --- */
+@media (max-width: 600px) {
+    main {
+        padding: 15px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* --- Ссылки --- */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* --- Карточки задач / товаров --- */
+.task-card {
+    border: 3px solid #ffd700;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 260px;
+    padding: 1.5rem;
+    border-radius: 25px;
+    background-color: #5a5a5a;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+    .task-card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    }
+
+/* --- Цены --- */
+.price {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+    .price:hover {
+        color: #adff2f; /* желто-зеленый */
+    }
+
+/* --- Поиск --- */
+.search-bar input {
+    width: 85%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #ffd700;
+}
+
+.search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* --- Кнопка "Взять задачу" --- */
+.take-task-btn {
+    margin-top: 50px;
+}
+
+.cart-container {
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 10px;
+    border: 2px solid #ffd700;
+    border-radius: 20px;
+    background-color: #4d4d4d;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.cart-container table {
+    width: 100%;  
+    text-align: center; 
+    border-radius:3px;
+}
+.del{
+    border-radius:5px;
+    border:solid 2px;
+    margin: 15px;
+    background-color:red;   
+    color:white;
+}
+.add{
+    border-radius: 5px;
+    border: solid 2px;
+    margin: 15px;
+    background-color: green;
+    color: yellow;
+}
+.ProductsList table {
+    border: solid 4px;
+    border-radius: 3px;
+    text-align: center;
+}
+.ProductsList {
+    text-align: center;
+}
+td {
+    border: solid 4px;
+}
+.tda{
+    background-color:green;
+}
+.sas {
+    border-radius: 5px;
+    border: solid 2px;
+    margin: 15px;
+    background-color: darkslategray;
+    color: white;
+}

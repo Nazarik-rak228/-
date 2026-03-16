@@ -1,0 +1,10 @@
+﻿@model powtorBD.Models.Colour
+<h1>Удаление продукта</h1>
+<h2> Вы уверены?</h2>
+<p><b>@Model.Title</b></p>
+
+<form asp-action="Remove" method="post">
+    <input type="hidden" asp-for="IdColour" />
+    <button type="submit">DaLETE</button>
+    <a asp-action="Index">back</a>
+</form>

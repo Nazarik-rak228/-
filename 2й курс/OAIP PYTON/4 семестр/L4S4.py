@@ -13,6 +13,8 @@ class Bank:
     def get_account_nember(self):
         return self.__account_number
     
+    
+# сеттеры теперь
     def set_balance(self,amount):
         self.__balance = amount
     def deposit(self,amount):
@@ -25,9 +27,6 @@ class Bank:
             self.__balance-=amount
             return self.__balance
         return False
-        
-# сеттеры теперь
-    
 
 
 

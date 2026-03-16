@@ -1,0 +1,72 @@
+﻿@{
+
+    var cart = ViewBag.Cart as IhateThisErrorsAndBug.Models.Cart;
+    var cartItems = ViewBag.CartItems as List<IhateThisErrorsAndBug.Models.CartItem>;
+    var products = ViewBag.Products as List<IhateThisErrorsAndBug.Models.Product>;
+
+    Layout = null;
+}
+<link rel="stylesheet" href="~/css/site.css" />
+
+
+<h1>Ваша корзина</h1>
+<div class="cart-container" ">
+@if (cart == null || !cartItems.Any())
+{
+    <p>Корзина пуста.</p>
+        <a class="sas" asp-area="" asp-controller="Main" asp-action="main">Купить чего нибудь! </a>
+}
+else
+{
+    <table style="border:solid 3px; border-radius:5px">
+        <thead>
+            <tr>
+                <th>Товар</th>
+                <th>Количество</th>
+                <th>Цена за единицу</th>
+                <th>Итого</th>
+                <th>Действие</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ci in cartItems)
+            {
+                var product = products.FirstOrDefault(p => p.ProductId == ci.ProductId);
+                if (product != null)
+                {
+                    <tr>
+                        <td>@product.ProductName</td>
+                        <td>
+                            @ci.Quantity
+                            <a class="btnPlus"
+                               asp-controller="Main"
+                               asp-action="ChangeQuantity"
+                               asp-route-cartItemId="@ci.CartItemId"
+                               asp-route-delta="1">+</a>
+                            <a class="btnMinus"
+                               asp-controller="Main"
+                               asp-action="ChangeQuantity"
+                               asp-route-cartItemId="@ci.CartItemId"
+                               asp-route-delta="-1">-</a>
+                        </td>
+                        <td>@product.Price.ToString("C")</td>
+                        <td>@(product.Price* ci.Quantity)</td>
+                        <td>
+                            <a class="del"
+                               asp-controller="Main"
+                               asp-action="Remove"
+                               asp-route-cartItemId="@ci.CartItemId">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+    <h3>
+        Общая сумма: @cartItems.Sum(ci => (products.FirstOrDefault(p => p.ProductId == ci.ProductId)?.Price ?? 0) * ci.Quantity)
+    </h3>
+    <a class="sas" asp-area="" asp-controller="Main" asp-action="main">Продолжить покупки </a>
+    <a class="add" asp-area="" asp-controller="Main" asp-action="main">купить</a>
+}
+</div>

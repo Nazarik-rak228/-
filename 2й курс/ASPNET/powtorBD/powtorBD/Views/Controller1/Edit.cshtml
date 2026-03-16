@@ -1,0 +1,24 @@
+﻿@model powtorBD.Models.Colour
+@{
+    var colour = ViewBag.Colour as IEnumerable<powtorBD.Models.Colour>;// обращаемся к forEach, так что надо вот это
+}
+<h1>добавим</h1>
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="IdColour"/>
+    <div>
+        <label>Название </label>
+        <input asp-for="Title" />
+        <span asp-validation-for="Title"></span>
+    </div>
+    
+    @* <div>
+        <label>Tittttt</label>
+        <input asp-for="Title"/>
+        <span asp-validation-for="">Title</span> так мы делаем остальные приколы для ввода, просто у меня только 1 не автоматический элемент
+
+    </div> *@
+    <button type="submit">
+        Отправить
+    </button>
+    <a asp-action="Index">Отменить </a>
+</form>

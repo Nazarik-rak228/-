@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="/student">
+    <input type="text" placeholder="name" name="name">
+    <input type="text" placeholder="surname" name="surname">
+    <input type="text" placeholder="secondNAme" name="secondname">
+    <input type="submit" value="add">
+</form>
+<ul>
+    <th:block th:each="student: ${student}">
+        <li>
+            <span th:text="${student.name} +'' + ${student.surname}"></span>
+        </li>
+    </th:block>
+</ul>
+<table>
+    <tr>
+        <th>№</th>
+        <th>ФИО</th>
+    </tr>
+    <tr th:each="s, stat : ${student}">
+        <td th:text="${stat.count}"></td>
+        <td th:text="${s.surname + ' ' + s.name + ' ' + (${s.secondname} ?: '')}"></td>
+    </tr>
+</table>
+</body>
+</html>
