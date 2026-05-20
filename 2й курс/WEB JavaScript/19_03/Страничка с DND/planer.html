@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Планер Обучения</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h3>Планер Задач</h3>
+
+    <p>
+        Система планирования задач для обучения
+    </p>
+
+</header>
+
+<section class="add">
+
+    <input
+        type="text"
+        id="taskInput"
+        placeholder="Введите название задачи"
+    >
+
+    <button id="addButton">
+        Создать задачу
+    </button>
+
+</section>
+
+<section class="search">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Введите название для поиска"
+    >
+
+</section>
+
+<section class="info">
+
+    <p>
+        Всего задач :
+        <span id="taskCount">0</span>
+    </p>
+
+    <p class="message" id="message"></p>
+
+</section>
+
+<main class="board">
+
+    <div class="column" data-status="inPlane">
+
+        <h2>В планах :</h2>
+
+        <div class="taskList" id="inPlane"></div>
+
+    </div>
+
+    <div class="column" data-status="progress">
+
+        <h2>Выполняю :</h2>
+
+        <div class="taskList" id="progress"></div>
+
+    </div>
+
+    <div class="column" data-status="inInspect">
+
+        <h2>На проверке :</h2>
+
+        <div class="taskList" id="inInspect"></div>
+
+    </div>
+
+    <div class="column" data-status="done">
+
+        <h2>Готово :</h2>
+
+        <div class="taskList" id="done"></div>
+
+    </div>
+
+</main>
+
+<script src="scr.js"></script>
+
+</body>
+</html>
