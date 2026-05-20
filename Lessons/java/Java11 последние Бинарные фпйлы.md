@@ -1,0 +1,15 @@
+![[Pasted image 20260403121048.png]]
+![[Pasted image 20260403121106.png]]
+	![[Pasted image 20260403121138.png]]
+тут просто ввод и вывод данных как смысл программы ^
+![[Pasted image 20260403121212.png]]
+Такой же смысл программы  ^
+![[Pasted image 20260403121242.png]]
+![[Pasted image 20260403121317.png]]
+![[Pasted image 20260403121445.png]]
+![[Pasted image 20260403121517.png]]
+![[Pasted image 20260403121606.png]]![[Pasted image 20260403121616.png]]
+![[Pasted image 20260403121646.png]]
+![[Pasted image 20260403121716.png]]
+![[Pasted image 20260403121733.png]]
+![[Pasted image 20260403121814.png]]

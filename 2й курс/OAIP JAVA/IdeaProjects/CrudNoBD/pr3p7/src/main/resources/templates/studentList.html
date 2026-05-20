@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список студентов</title>
+</head>
+<body>
+<h1>Добавление студента</h1>
+<form method="post" action="students/add">
+  <input type="text" placeholder="имя" name="name" required>
+  <input type="text" placeholder="фамилия" name="surname" required>
+  <input type="text" placeholder="отчество" name="secondName" required>
+  <input type="submit" value="Добавить">
+</form>
+<h2>Список студентов</h2>
+<ul>
+  <th:block th:each="student : ${students}">
+      <li>
+        <span th:text="${student.name} + ' ' + ${student.surname} + ' ' + ${student.secondName}"></span>
+            <form method="post" action="students/update">
+                <input type="hidden" name="id" th:value="${student.id}">
+                <input type="text" placeholder="имя" name="name" required>
+                <input type="text" placeholder="фамилия" name="surname" required>
+                <input type="text" placeholder="отчество" name="secondName" required>
+                <input type="submit" value="Изменить">
+            </form>
+            <form method="post" action="students/delete">
+                <input type="hidden" name="id" th:value="${student.id}">
+                <input type="submit" value="Удалить">
+            </form>
+      </li>
+  </th:block>
+</ul>
+</body>
+</html>

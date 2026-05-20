@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title>Регистрация</title>
+</head>
+<body>
+        <header>
+        <h1>Регистрация</h1>
+    </header>
+    <nav>
+        <a href="lessons.html">Уроки</a>
+        <a href="index.html" >Главная</a>
+        <a href="login.html">Вход</a>
+        <a href="schedule.html">Расписание</a>
+    </nav>
+    <div class="container">
+        <form onsubmit="registerUser(event)">
+            <input type="text" id="full_name" placeholder="ФИО" required>
+            <input type="email" id="email" placeholder="Почта" required>
+            <input type="text" placeholder="Логин" id="login" required>
+            <input type="password" id="password" placeholder="Пороль" required>
+            <select  id="role" required>
+                <option value="student"> Ученик</option>
+                <option value="teacher">Учитель</option>
+                <option value="admin">Админ</option>
+            </select>
+             <button type="submit">Зарегистрироваться</button>
+
+        </form>
+        <div class="message" id="message"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

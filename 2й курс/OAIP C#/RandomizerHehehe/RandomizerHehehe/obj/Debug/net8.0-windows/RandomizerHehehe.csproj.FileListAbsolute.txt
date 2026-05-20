@@ -1,0 +1,42 @@
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\bin\Debug\net8.0-windows\RandomizerHehehe.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\bin\Debug\net8.0-windows\RandomizerHehehe.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\bin\Debug\net8.0-windows\RandomizerHehehe.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\bin\Debug\net8.0-windows\RandomizerHehehe.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\bin\Debug\net8.0-windows\RandomizerHehehe.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe_MarkupCompile.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe_MarkupCompile.lref
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.g.resources
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\refint\RandomizerHehehe.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\ref\RandomizerHehehe.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\bin\Debug\net8.0-windows\RandomizerHehehe.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\bin\Debug\net8.0-windows\RandomizerHehehe.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\bin\Debug\net8.0-windows\RandomizerHehehe.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\bin\Debug\net8.0-windows\RandomizerHehehe.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\bin\Debug\net8.0-windows\RandomizerHehehe.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe_MarkupCompile.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe_MarkupCompile.lref
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.g.resources
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\refint\RandomizerHehehe.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\RandomizerHehehe.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\RandomizerHehehe\RandomizerHehehe\obj\Debug\net8.0-windows\ref\RandomizerHehehe.dll

@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\PW10BugsRebild\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA762DC-7585-43C6-A38E-829A43BD5705}|PW10BugsRebild\\PW10BugsRebild.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\oaip c#\\pw10bugsrebild\\pw10bugsrebild\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA762DC-7585-43C6-A38E-829A43BD5705}|PW10BugsRebild\\PW10BugsRebild.csproj|solutionrelative:pw10bugsrebild\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA762DC-7585-43C6-A38E-829A43BD5705}|PW10BugsRebild\\PW10BugsRebild.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\oaip c#\\pw10bugsrebild\\pw10bugsrebild\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2CA762DC-7585-43C6-A38E-829A43BD5705}|PW10BugsRebild\\PW10BugsRebild.csproj|solutionrelative:pw10bugsrebild\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\PW10BugsRebild\\PW10BugsRebild\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PW10BugsRebild\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\PW10BugsRebild\\PW10BugsRebild\\MainWindow.xaml",
+              "RelativeToolTip": "PW10BugsRebild\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-18T15:29:01.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\PW10BugsRebild\\PW10BugsRebild\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PW10BugsRebild\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\PW10BugsRebild\\PW10BugsRebild\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PW10BugsRebild\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T15:29:01.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

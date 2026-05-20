@@ -1,0 +1,64 @@
+﻿<Window x:Class="S2l6c_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:S2l6c_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/> 
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="Color manager"
+                       HorizontalAlignment="Center"
+                       FontSize="30"
+                       FontWeight="Bold"/>
+        </StackPanel>
+        <UniformGrid Grid.Row="1" Columns="3" Rows="2" >
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Rectangle x:Name="Kvadrat" Width="180" Height="80" Stroke="IndianRed" StrokeThickness="5" Fill="Aquamarine"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Rectangle x:Name="Kvadrat2" Width="80" Height="80" Stroke="IndianRed" StrokeThickness="5" Fill="Aquamarine"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Ellipse x:Name="Elipse" Width="80" Height="180" Stroke="IndianRed" StrokeThickness="5" Fill="Aquamarine"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Ellipse x:Name="Cirkle" Width="80" Height="80" Stroke="IndianRed" StrokeThickness="5" Fill="Aquamarine"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Border x:Name="Okruglenny" Width="180" Height="80" 
+                        BorderBrush="IndianRed"
+                        BorderThickness="5"
+                        Background="Aquamarine"
+                        CornerRadius="5"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Border x:Name="Okruglenny2" Width="80" Height="80" 
+            BorderBrush="IndianRed"
+            BorderThickness="5"
+            Background="Aquamarine"
+            CornerRadius="5"/>
+            </StackPanel>
+
+        </UniformGrid>
+        <WrapPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Background="Beige" Height="40" Width="40" Margin="5"></Button>
+            <Button Background="Red" Height="40" Width="40" Margin="5"></Button>
+            <Button Background="Yellow" Height="40" Width="40" Margin="5"></Button>
+            <Button Background="Gray" Height="40" Width="40" Margin="5"></Button>
+            <Button Background="Green" Height="40" Width="40" Margin="5"></Button>
+            <Button Background="Black" Height="40" Width="40" Margin="5" Click="Button_Click"></Button>
+            <Button Background="Brown" Height="40" Width="40" Margin="5"></Button>
+            <Button Background="PaleGoldenrod" Height="40" Width="40" Margin="5"></Button>
+            <Button Background="Purple" Height="40" Width="40" Margin="5"></Button>
+            <Button Background="Salmon" Height="40" Width="40" Margin="5"></Button>
+            <Button Background="Firebrick" Height="40" Width="40" Margin="5"></Button>
+        </WrapPanel>
+    </Grid>
+</Window>

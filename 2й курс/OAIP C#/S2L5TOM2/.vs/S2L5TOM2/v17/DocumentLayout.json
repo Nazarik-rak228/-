@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\ASPNET\\S2L5TOM2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F65D477F-1E93-4302-94B2-7CB87586654E}|S2L5TOM2\\S2L5TOM2.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\aspnet\\s2l5tom2\\s2l5tom2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F65D477F-1E93-4302-94B2-7CB87586654E}|S2L5TOM2\\S2L5TOM2.csproj|solutionrelative:s2l5tom2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F65D477F-1E93-4302-94B2-7CB87586654E}|S2L5TOM2\\S2L5TOM2.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\aspnet\\s2l5tom2\\s2l5tom2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F65D477F-1E93-4302-94B2-7CB87586654E}|S2L5TOM2\\S2L5TOM2.csproj|solutionrelative:s2l5tom2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\ASPNET\\S2L5TOM2\\S2L5TOM2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "S2L5TOM2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\ASPNET\\S2L5TOM2\\S2L5TOM2\\MainWindow.xaml",
+              "RelativeToolTip": "S2L5TOM2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-17T19:43:11.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\ASPNET\\S2L5TOM2\\S2L5TOM2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "S2L5TOM2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\ASPNET\\S2L5TOM2\\S2L5TOM2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "S2L5TOM2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T19:43:11.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

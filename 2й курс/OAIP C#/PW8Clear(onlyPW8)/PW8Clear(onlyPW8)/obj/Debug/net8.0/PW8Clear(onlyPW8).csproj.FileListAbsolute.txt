@@ -1,0 +1,15 @@
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\bin\Debug\net8.0\PW8Clear(onlyPW8).exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\bin\Debug\net8.0\PW8Clear(onlyPW8).deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\bin\Debug\net8.0\PW8Clear(onlyPW8).runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\bin\Debug\net8.0\PW8Clear(onlyPW8).dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\bin\Debug\net8.0\PW8Clear(onlyPW8).pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\obj\Debug\net8.0\PW8Clear(onlyPW8).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\obj\Debug\net8.0\PW8Clear(onlyPW8).AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\obj\Debug\net8.0\PW8Clear(onlyPW8).AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\obj\Debug\net8.0\PW8Clear(onlyPW8).csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\obj\Debug\net8.0\PW8Clear(onlyPW8).sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\obj\Debug\net8.0\PW8Clear(onlyPW8).dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\obj\Debug\net8.0\refint\PW8Clear(onlyPW8).dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\obj\Debug\net8.0\PW8Clear(onlyPW8).pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\obj\Debug\net8.0\PW8Clear(onlyPW8).genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW8Clear(onlyPW8)\PW8Clear(onlyPW8)\obj\Debug\net8.0\ref\PW8Clear(onlyPW8).dll

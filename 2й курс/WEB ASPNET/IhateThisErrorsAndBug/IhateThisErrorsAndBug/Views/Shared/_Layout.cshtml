@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - IhateThisErrorsAndBug</title>
+    <link rel="stylesheet" href="~/css/site.css"/>
+
+  </head>
+<body>
+    <header>
+        <nav>
+            
+                
+             
+                    <ul class="navbar-nav flex-grow-1">
+                        <li>
+                            <a class="navbar-brand" asp-area="" asp-controller="Main" asp-action="main">IhateThisErrorsAndBug</a>
+                        </li>
+                        <li>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Main" asp-action="cart">Корзина</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="admin">
+
+                        </li>
+                        <li>
+                    <a asp-controller="Account"  asp-action="Login">Вход/регистрация</a>
+
+                        </li>
+                        <li>
+                    <form asp-controller="Account" asp-action="Logout" method="post">
+                        <button type="submit" class="btn btn-link nav-link text-dark p-0" style="text-decoration: none;">Выход</button>
+                    </form>
+                        </li>
+
+                    </ul>
+
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>    
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

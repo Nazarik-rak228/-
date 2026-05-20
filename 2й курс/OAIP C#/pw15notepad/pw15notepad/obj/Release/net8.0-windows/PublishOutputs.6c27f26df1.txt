@@ -1,0 +1,5 @@
+C:\Users\nazar\Documents\pw15notepad.exe
+C:\Users\nazar\Documents\pw15notepad.dll
+C:\Users\nazar\Documents\pw15notepad.deps.json
+C:\Users\nazar\Documents\pw15notepad.runtimeconfig.json
+C:\Users\nazar\Documents\pw15notepad.pdb

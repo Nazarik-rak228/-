@@ -1,0 +1,5 @@
+C:\Users\nazar\Documents\study\P-8-24-Study\pw15notepad.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\pw15notepad.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\pw15notepad.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\pw15notepad.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\pw15notepad.pdb

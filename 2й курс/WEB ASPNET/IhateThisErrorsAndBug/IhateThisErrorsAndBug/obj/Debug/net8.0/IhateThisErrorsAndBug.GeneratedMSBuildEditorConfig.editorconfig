@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IhateThisErrorsAndBug
+build_property.RootNamespace = IhateThisErrorsAndBug
+build_property.ProjectDir = C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\WEB ASPNET\IhateThisErrorsAndBug\IhateThisErrorsAndBug\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\WEB ASPNET\IhateThisErrorsAndBug\IhateThisErrorsAndBug
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/CartItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FydEl0ZW1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/Carts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/CreateCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/CreateCartItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ2FydEl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/CreateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/CreateOrderItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlT3JkZXJJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/EditCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/EditCartItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENhcnRJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/EditCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/EditOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/EditOrderItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdE9yZGVySXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/EditProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/OrderItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJJdGVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/Roles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Admin/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Main/cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxjYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Main/main.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxtYWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Main/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxNeU9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nazar/Documents/study/P-8-24-Study/2й курс/WEB ASPNET/IhateThisErrorsAndBug/IhateThisErrorsAndBug/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-dg1cr2ytx1

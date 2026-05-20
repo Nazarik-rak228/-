@@ -1,0 +1,42 @@
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\bin\Debug\net8.0-windows\l7s4c.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\bin\Debug\net8.0-windows\l7s4c.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\bin\Debug\net8.0-windows\l7s4c.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\bin\Debug\net8.0-windows\l7s4c.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\bin\Debug\net8.0-windows\l7s4c.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c_MarkupCompile.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c_MarkupCompile.lref
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.g.resources
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\refint\l7s4c.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\l7s4c\l7s4c\obj\Debug\net8.0-windows\ref\l7s4c.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\bin\Debug\net8.0-windows\l7s4c.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\bin\Debug\net8.0-windows\l7s4c.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\bin\Debug\net8.0-windows\l7s4c.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\bin\Debug\net8.0-windows\l7s4c.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\bin\Debug\net8.0-windows\l7s4c.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c_MarkupCompile.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c_MarkupCompile.lref
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.g.resources
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\refint\l7s4c.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\l7s4c.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\l7s4c\l7s4c\obj\Debug\net8.0-windows\ref\l7s4c.dll

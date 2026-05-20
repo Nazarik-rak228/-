@@ -1,0 +1,16 @@
+﻿@model IhateThisErrorsAndBug.Models.Category
+
+<h2>Изменить категорию</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="CategoryId" />
+    <span asp-validation-for=" CategoryId" class="text-danger"></span>
+
+
+    <label>Название</label>
+    <input type="text" asp-for="CategoryName" />
+    <span asp-validation-for="CategoryName" class="text-danger"></span>
+
+
+    <button type="submit">Сохранить</button>
+</form>

@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\pw13MenuAndContextM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F068EB97-8FC4-4725-961F-F013F47228FB}|pw13MenuAndContextM\\pw13MenuAndContextM.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\oaip c#\\pw13menuandcontextm\\pw13menuandcontextm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F068EB97-8FC4-4725-961F-F013F47228FB}|pw13MenuAndContextM\\pw13MenuAndContextM.csproj|solutionrelative:pw13menuandcontextm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F068EB97-8FC4-4725-961F-F013F47228FB}|pw13MenuAndContextM\\pw13MenuAndContextM.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\oaip c#\\pw13menuandcontextm\\pw13menuandcontextm\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F068EB97-8FC4-4725-961F-F013F47228FB}|pw13MenuAndContextM\\pw13MenuAndContextM.csproj|solutionrelative:pw13menuandcontextm\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B1F001-8D27-1873-29DA-E2268D72F42B}|..\\l7s4c\\l7s4c\\l7s4c.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\oaip c#\\l7s4c\\l7s4c\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B1F001-8D27-1873-29DA-E2268D72F42B}|..\\l7s4c\\l7s4c\\l7s4c.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\oaip c#\\l7s4c\\l7s4c\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B54F6C4-1401-4E28-36BD-86C042B89C42}|..\\RandomizerHehehe\\RandomizerHehehe\\RandomizerHehehe.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\oaip c#\\randomizerhehehe\\randomizerhehehe\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B54F6C4-1401-4E28-36BD-86C042B89C42}|..\\RandomizerHehehe\\RandomizerHehehe\\RandomizerHehehe.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\oaip c#\\randomizerhehehe\\randomizerhehehe\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\pw13MenuAndContextM\\pw13MenuAndContextM\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "pw13MenuAndContextM\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\pw13MenuAndContextM\\pw13MenuAndContextM\\MainWindow.xaml",
+              "RelativeToolTip": "pw13MenuAndContextM\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T11:08:01.49Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\pw13MenuAndContextM\\pw13MenuAndContextM\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "pw13MenuAndContextM\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\pw13MenuAndContextM\\pw13MenuAndContextM\\MainWindow.xaml.cs",
+              "RelativeToolTip": "pw13MenuAndContextM\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAwwKMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:29:20.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\l7s4c\\l7s4c\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\l7s4c\\l7s4c\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\l7s4c\\l7s4c\\MainWindow.xaml",
+              "RelativeToolTip": "..\\l7s4c\\l7s4c\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T11:19:14.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\l7s4c\\l7s4c\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\l7s4c\\l7s4c\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\l7s4c\\l7s4c\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\l7s4c\\l7s4c\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:47:52.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\RandomizerHehehe\\RandomizerHehehe\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\RandomizerHehehe\\RandomizerHehehe\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\RandomizerHehehe\\RandomizerHehehe\\MainWindow.xaml",
+              "RelativeToolTip": "..\\RandomizerHehehe\\RandomizerHehehe\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T11:36:34.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\RandomizerHehehe\\RandomizerHehehe\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\RandomizerHehehe\\RandomizerHehehe\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\RandomizerHehehe\\RandomizerHehehe\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\RandomizerHehehe\\RandomizerHehehe\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:49:00.052Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

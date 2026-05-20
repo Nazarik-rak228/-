@@ -1,0 +1,28 @@
+﻿@model List<IhateThisErrorsAndBug.Models.Order>
+
+<h2>Заказы</h2>
+<a asp-action="CreateOrder">Добавить заказ</a>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>UserId</th>
+        <th>Дата</th>
+        <th>Сумма</th>
+        <th>Действия</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.OrderId</td>
+            <td>@item.UserId</td>
+            <td>@item.OrderDate</td>
+            <td>@item.TotalAmount</td>
+            <td>
+                <a asp-action="DeleteOrder" asp-route-id="@item.OrderId" onclick="return confirm('Точно хочешь удалить этот товар?')">>Удалить</a>
+                <a asp-action="EditOrder" asp-route-id="@item.OrderId">Изменить</a>
+            </td>
+        </tr>
+    }
+</table>
+<a asp-controller="Admin" asp-action="Index">Назад в админ панель</a>

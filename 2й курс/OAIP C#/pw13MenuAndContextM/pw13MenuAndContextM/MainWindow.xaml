@@ -1,0 +1,65 @@
+﻿<Window x:Class="pw13MenuAndContextM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pw13MenuAndContextM"
+        mc:Ignorable="d"
+
+        Title="СкуфУслуги" Height="450" Width="800">
+
+
+    <Grid x:Name="Sas" Background="White">
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Menu Grid.Row="0" Background="#FF5181E0" >
+            <MenuItem Header="Файл" Foreground="Black" >
+                <MenuItem Header="сохранить" InputGestureText="Ctrl+S" Click="MenuItem_Click"></MenuItem>
+                <MenuItem Header="Сброс" InputGestureText="Ctrl+Z" Click="MenuItem_Click_1"></MenuItem>
+                <MenuItem Header="Показать" InputGestureText="Ctrl+B" Click="MenuItem_Click_2" ></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Тема" Foreground="Black">
+                <MenuItem Header="Темная" Click="MenuItem_Click_3"></MenuItem>
+                <MenuItem Header="Светлая" InputGestureText="Ctrl+S"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Шрифт" Foreground="Black">
+                <MenuItem Header="Большой" Click="MenuItem_Click_5"></MenuItem>
+                <MenuItem Header="Маленький" InputGestureText="Ctrl+" ></MenuItem>
+            </MenuItem>
+        </Menu>
+
+        <TextBlock Grid.Row="1" Text="Добро пожаловать на СкуфУслуги" VerticalAlignment="Top" HorizontalAlignment="Center" RenderTransformOrigin="0.493,1.925" Height="44" Margin="0,42,0,0" Foreground="Red" FontFamily="Dubai Medium" FontSize="20" Grid.RowSpan="2"/>
+        <Border Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" BorderThickness="2" CornerRadius="12" BorderBrush="#FF0056FF" Width="346">
+            <TextBox x:Name="name" TextWrapping="Wrap" Text="Назар" Background="{x:Null}" BorderBrush="{x:Null}" />
+        </Border>
+        <Border Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" BorderThickness="2" CornerRadius="12" BorderBrush="#FF0056FF" Width="346">
+            <TextBox x:Name="famil" TextWrapping="Wrap" Text="Брагин" Background="{x:Null}" BorderBrush="{x:Null}" />
+        </Border>
+        <Border Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" BorderThickness="2" CornerRadius="12" BorderBrush="#FF0056FF" Width="346">
+            <TextBox x:Name="otch" TextWrapping="Wrap" Text="Андреевич" Background="{x:Null}" BorderBrush="{x:Null}" />
+        </Border>
+        <Border Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" BorderThickness="2" CornerRadius="12" BorderBrush="#FF0056FF" Width="346" Background="#FF0056FF">
+            <Button x:Name="SaveButton" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" >Сохраненить изменение профиля</Button>
+        </Border>
+
+
+        <Grid.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="сохранить" InputGestureText="Ctrl+S" Click="MenuItem_Click"></MenuItem>
+                <MenuItem Header="Сброс" InputGestureText="Ctrl+Z" Click="MenuItem_Click_1"></MenuItem>
+                <MenuItem Header="Показать" InputGestureText="Ctrl+A" Click="MenuItem_Click_2" ></MenuItem>
+            </ContextMenu>
+        </Grid.ContextMenu>
+
+    </Grid>
+   
+</Window>

@@ -1,0 +1,22 @@
+﻿@model IhateThisErrorsAndBug.Models.CartItem
+
+<h2>Добавить предмет корзины</h2>
+
+<form method="post">
+    <label>Cart ID</label>
+    <input type="number" asp-for="CartId" />
+    <span asp-validation-for="CartId" class="text-danger"></span>
+
+
+    <label>Product ID</label>
+    <input type="number" asp-for="ProductId" />
+    <span asp-validation-for="ProductId" class="text-danger"></span>
+
+
+    <label>Количество</label>
+    <input type="number" asp-for="Quantity" />
+    <span asp-validation-for="Quantity" class="text-danger"></span>
+
+
+    <button type="submit">Добавить</button>
+</form>

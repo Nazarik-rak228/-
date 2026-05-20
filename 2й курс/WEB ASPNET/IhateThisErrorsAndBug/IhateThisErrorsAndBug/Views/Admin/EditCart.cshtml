@@ -1,0 +1,18 @@
+﻿@model IhateThisErrorsAndBug.Models.Cart
+
+<h2>Изменить корзину</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="CartId" />
+    <span asp-validation-for="CartId" class="text-danger"></span>
+
+    <label>User ID</label>
+    <input type="number" asp-for="UserId"  />
+    <span asp-validation-for="UserId" class="text-danger"></span>
+
+    <label>Дата</label>
+    <input type="datetime-local" asp-for="CreatedDate" />
+    <span asp-validation-for="CreatedDate" class="text-danger"></span>
+
+    <button type="submit">Сохранить</button>
+</form>

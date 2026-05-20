@@ -1,0 +1,17 @@
+﻿@model IhateThisErrorsAndBug.Models.Cart
+
+<h2>Добавить корзину</h2>
+
+<form method="post">
+    <label>User ID</label>
+    <input type="number" asp-for="UserId" />
+    <span asp-validation-for="UserId" class="text-danger"></span>
+
+
+    <label>Дата</label>
+    <input type="datetime-local" asp-for="CreatedDate" />
+    <span asp-validation-for="CreatedDate" class="text-danger"></span>
+
+
+    <button type="submit">Добавить</button>
+</form>

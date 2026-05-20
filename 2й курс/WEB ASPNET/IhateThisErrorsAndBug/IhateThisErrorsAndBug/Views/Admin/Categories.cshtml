@@ -1,0 +1,26 @@
+﻿@model List<IhateThisErrorsAndBug.Models.Category>
+
+<h2>Категории</h2>
+
+<a asp-action="CreateCategory">Добавить категорию</a>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Название</th>
+        <th>Действия</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CategoryId</td>
+            <td>@item.CategoryName</td>
+            <td>
+                <a asp-action="EditCategory" asp-route-id="@item.CategoryId">Изменить</a>
+                <a asp-action="DeleteCategory" asp-route-id="@item.CategoryId" onclick="return confirm('Точно хочешь удалить этот товар?')">>Удалить</a>
+            </td>
+        </tr>
+    }
+</table>
+<a asp-controller="Admin" asp-action="Index">Назад в админ панель</a>

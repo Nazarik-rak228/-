@@ -1,0 +1,67 @@
+﻿<Window x:Class="lekcFromPW15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lekcFromPW15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem  Header="Файл">
+                <MenuItem Header="создать"></MenuItem>
+                <MenuItem Header="открыть"></MenuItem>
+                <Separator/>
+                <MenuItem Header="сохранить"></MenuItem>
+                <MenuItem Header="сохранить как.."></MenuItem>
+                <Separator/>
+                <MenuItem Header="печать "></MenuItem>
+                <Separator/>
+                <MenuItem Header="выход"></MenuItem>
+            </MenuItem>
+            
+            <MenuItem  Header="Правка">
+                <MenuItem Header="отменить" Click="otmena"></MenuItem>
+                <MenuItem Header="повторить"></MenuItem>
+                <Separator/>
+                <MenuItem Header="Вырезать"></MenuItem>
+                <MenuItem Header="копировать"></MenuItem>
+                <MenuItem Header="вставить"></MenuItem>
+                <MenuItem Header="удалить" Click="del" ></MenuItem>
+                <Separator/>
+                <MenuItem Header="найти"></MenuItem>
+                <MenuItem Header="заменить"></MenuItem>
+                <Separator/>
+                <MenuItem Header="выделить все"></MenuItem>
+            </MenuItem>
+            <MenuItem  Header="Формат">
+                <MenuItem Header="Перенос по словам" IsChecked="True" IsCheckable="True"></MenuItem>
+                <MenuItem Header="увеличить шрифт"></MenuItem>
+                
+                <MenuItem Header="уменьшить шрифт"></MenuItem>
+                
+               
+            </MenuItem>
+            <MenuItem  Header="Справка">
+                <MenuItem Header="О программе"></MenuItem>
+              
+            </MenuItem>
+        </Menu>
+
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock x:Name="line" Text="сам считай строки "></TextBlock>
+            </StatusBarItem>
+            <Separator></Separator>
+            <StatusBarItem>
+                <TextBlock x:Name="sleng" Text="и символы"></TextBlock>
+            </StatusBarItem>
+            <Separator></Separator>
+            <StatusBarItem>
+                <TextBlock x:Name="path" Text="новый файл"></TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+        <TextBox x:Name="Editor" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" AcceptsTab="True" TextWrapping="Wrap" TextChanged="Editor_TextChanged" SelectionChanged="Editor_SelectionChanged"></TextBox>
+
+    </DockPanel>
+</Window>

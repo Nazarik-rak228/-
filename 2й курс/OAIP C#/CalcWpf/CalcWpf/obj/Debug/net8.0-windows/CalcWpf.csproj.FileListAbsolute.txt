@@ -1,0 +1,40 @@
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf_MarkupCompile.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\bin\Debug\net8.0-windows\CalcWpf.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\bin\Debug\net8.0-windows\CalcWpf.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\bin\Debug\net8.0-windows\CalcWpf.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\bin\Debug\net8.0-windows\CalcWpf.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\bin\Debug\net8.0-windows\CalcWpf.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.g.resources
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\refint\CalcWpf.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\ref\CalcWpf.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\bin\Debug\net8.0-windows\CalcWpf.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\bin\Debug\net8.0-windows\CalcWpf.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\bin\Debug\net8.0-windows\CalcWpf.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\bin\Debug\net8.0-windows\CalcWpf.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\bin\Debug\net8.0-windows\CalcWpf.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf_MarkupCompile.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.g.resources
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\refint\CalcWpf.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\CalcWpf.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\CalcWpf\CalcWpf\obj\Debug\net8.0-windows\ref\CalcWpf.dll

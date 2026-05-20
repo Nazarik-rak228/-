@@ -1,0 +1,14 @@
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\bin\Debug\net8.0\DzCsharp.exe
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\bin\Debug\net8.0\DzCsharp.deps.json
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\bin\Debug\net8.0\DzCsharp.runtimeconfig.json
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\bin\Debug\net8.0\DzCsharp.dll
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\bin\Debug\net8.0\DzCsharp.pdb
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\obj\Debug\net8.0\DzCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\obj\Debug\net8.0\DzCsharp.AssemblyInfoInputs.cache
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\obj\Debug\net8.0\DzCsharp.AssemblyInfo.cs
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\obj\Debug\net8.0\DzCsharp.csproj.CoreCompileInputs.cache
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\obj\Debug\net8.0\DzCsharp.dll
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\obj\Debug\net8.0\refint\DzCsharp.dll
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\obj\Debug\net8.0\DzCsharp.pdb
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\obj\Debug\net8.0\DzCsharp.genruntimeconfig.cache
+C:\Users\nazar\source\repos\DzCsharp\DzCsharp\obj\Debug\net8.0\ref\DzCsharp.dll

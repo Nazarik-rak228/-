@@ -1,0 +1,29 @@
+﻿@model List<IhateThisErrorsAndBug.Models.User>
+
+<h2>Пользователи</h2>
+
+<a asp-action="CreateUser">Добавить пользователя</a>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Имя</th>
+        <th>Email</th>
+        <th>RoleId</th>
+        <th>Действия</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UserId</td>
+            <td>@item.Username</td>
+            <td>@item.PasswordHash</td>
+            <td>@item.RoleId</td>
+            <td>
+                <a asp-action="EditUser" asp-route-id="@item.UserId">Изменить</a>
+                <a asp-action="DeleteUser" asp-route-id="@item.UserId " onclick="return confirm('Точно хочешь удалить этот товар?')">>">Удалить</a>
+            </td>
+        </tr>
+    }
+</table>

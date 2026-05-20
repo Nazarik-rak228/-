@@ -1,0 +1,40 @@
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\bin\Debug\net8.0-windows\pw15notepad.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\bin\Debug\net8.0-windows\pw15notepad.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\bin\Debug\net8.0-windows\pw15notepad.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\bin\Debug\net8.0-windows\pw15notepad.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\bin\Debug\net8.0-windows\pw15notepad.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad_MarkupCompile.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.g.resources
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\refint\pw15notepad.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\ref\pw15notepad.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\bin\Debug\net8.0-windows\pw15notepad.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\bin\Debug\net8.0-windows\pw15notepad.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\bin\Debug\net8.0-windows\pw15notepad.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\bin\Debug\net8.0-windows\pw15notepad.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\bin\Debug\net8.0-windows\pw15notepad.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad_MarkupCompile.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.g.resources
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\refint\pw15notepad.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\pw15notepad.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw15notepad\pw15notepad\obj\Debug\net8.0-windows\ref\pw15notepad.dll

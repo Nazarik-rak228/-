@@ -1,0 +1,102 @@
+html {
+    font-family: Impact, sans-serif;
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header {
+    text-align: left;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 30px;
+    background-color: rgb(57, 57, 57);
+    color: yellow;
+    padding: 30px;
+}
+
+nav {
+    text-align: center;
+    margin: 0 20px;
+    padding: 10px;
+    background: rgb(57, 57, 57);
+    border-radius: 10px;
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#lessons-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    background: darkgray;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.sas {
+    height: 200px;
+    object-fit: cover;
+}
+
+input, select, button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Impact, sans-serif;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(57, 57, 57);
+    color: yellow;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#message {
+    color: red;
+    font-weight: bold;
+    min-height: 24px;
+}

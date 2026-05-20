@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                padding: 16px;
+            }
+
+            #input {
+                padding: 6px 8px;
+                width: 260px;
+            }
+
+            button {
+                padding: 6px 10px;
+                cursor: pointer;
+            }
+
+
+            .active {
+                background: greenyellow
+            }
+
+            .row {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+                margin: 10px 0;
+            }
+
+            .done {
+                text-decoration: line-through;
+                opacity: 0.7;
+            }
+
+            .task {
+                padding: 6px 8px;
+                border: 1px solid #ddd;
+                margin: 6px 0;
+                border-radius: 6px;
+            }
+
+
+            .meta {
+                margin-top: 10px;
+                font: 14px;
+            }
+
+            .hint {
+                font-size: 13px;
+                opacity: 0.75;
+                margin-top: 6px;
+            }
+
+
+        <!--   -->
+
+        #log{height: 180px; overflow: auto; background: #fafafa; border: 1px solid #eee;
+        border-radius: 8px; padding: 8px; font-family: 'Times New Roman', Times, serif;
+        font-size: 12px; white-space: pre-wrap;}
+
+        .outer, .middle, .inner {border: 2px solid #444; padding: 12px; border-radius: 10px;
+        margin-top: 12px;}
+
+        .middle { border-color: #777; }
+        .inner { border-color: #aaa; }
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1 id="title">Список задач</h1>
+
+        <div class="row">
+            <input id="input" placeholder="Введите задачу">
+            <button id="add">Добавить</button>
+            <button id="clear">Очистить</button>
+        </div>
+
+        <div class="meta">
+            <div id="counter">Всero: 0 • Выполнено: 0</div>
+            <div class="hint">Клик по задаче: выделить + выполнить. Двойной клик: удалить.</div>
+        </div>
+
+        <ul id="list"></ul>
+
+
+
+        <!--     -->
+
+
+        
+        <div class="outer" id="outer">
+            OUTER
+            <div class="middle" id="middle">
+                MIDDLE
+                <div class="inner"id="inner">
+                    INNER
+                    <button id="innerBtn">KHonkaBHyTpM INNER</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <strong>Лог событий</strong>
+            <button id="logClear">Очистить лог</button>
+            <label class="row" style="margin:0">
+                <input type="checkbox"  id="showDetails" checked>
+                показывать детали (target/currentTarget/phase)
+            </label>
+        </div>
+
+        <div class="hint">
+            Подсказка: eventPhase = 1 (capture), 2 (target), 3(bubble) 
+            Попробуй  нажать кнопку внутри· INNER· и· сравнить <span class="kbd">target</span>
+            и <span class="kbd">currentTarget</span>
+        </div>
+
+        <div id="log"></div>
+        </div>
+
+        <p class="hint">
+            Демо preventDefault: <a id="demoLink" href="https://examplecom" target="_blank">ссылка (мы отменим переход)</а>
+        </p>
+
+        <script src="script.js"></script>
+    </body>
+</html>

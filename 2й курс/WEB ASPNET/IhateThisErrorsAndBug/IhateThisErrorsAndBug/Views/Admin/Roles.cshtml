@@ -1,0 +1,25 @@
+﻿@model List<IhateThisErrorsAndBug.Models.Role>
+
+<h2>Роли</h2>
+
+<a asp-action="CreateRole">Добавить роль</a>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Название</th>
+        <th>Действия</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.RoleId</td>
+            <td>@item.RoleName</td>
+            <td>
+                <a asp-action="DeleteRole" asp-route-id="@item.RoleId" onclick="return confirm('Точно хочешь удалить этот товар?')">>Удалить</a>
+            </td>
+        </tr>
+    }
+</table>
+<a asp-controller="Admin" asp-action="Index">Назад в админ панель</a>

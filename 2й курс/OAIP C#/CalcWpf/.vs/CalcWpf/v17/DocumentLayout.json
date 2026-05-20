@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\CalcWpf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71284243-F1F2-4819-BD02-87029F8CD2F5}|CalcWpf\\CalcWpf.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\oaip c#\\calcwpf\\calcwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{71284243-F1F2-4819-BD02-87029F8CD2F5}|CalcWpf\\CalcWpf.csproj|solutionrelative:calcwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71284243-F1F2-4819-BD02-87029F8CD2F5}|CalcWpf\\CalcWpf.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\oaip c#\\calcwpf\\calcwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71284243-F1F2-4819-BD02-87029F8CD2F5}|CalcWpf\\CalcWpf.csproj|solutionrelative:calcwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\CalcWpf\\CalcWpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CalcWpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\CalcWpf\\CalcWpf\\MainWindow.xaml",
+              "RelativeToolTip": "CalcWpf\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-06T15:50:08.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\CalcWpf\\CalcWpf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CalcWpf\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\CalcWpf\\CalcWpf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CalcWpf\\MainWindow.xaml.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAA7wNUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T15:50:06.158Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

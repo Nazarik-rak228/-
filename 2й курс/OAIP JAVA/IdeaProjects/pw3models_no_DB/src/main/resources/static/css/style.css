@@ -1,0 +1,304 @@
+/* ===== ОСНОВНЫЕ НАСТРОЙКИ ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #4d4d4d; /* Темно-серый фон */
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* ===== КОНТЕЙНЕР ===== */
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #404040; /* Чуть светлее фона страницы для контраста */
+    border: 2px solid yellow;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== ЗАГОЛОВКИ ===== */
+h1, h2, h3 {
+    text-align: center;
+    color: yellow;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    border-bottom: 2px solid rgb(175, 120, 0);
+    padding-bottom: 10px;
+}
+
+/* ===== ССЫЛКИ ===== */
+a {
+    color: #ffd700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px yellow;
+}
+/* ===== МЕНЮ / НАВИГАЦИЯ (ГЛАВНАЯ СТРАНИЦА) ===== */
+ul {
+    list-style-type: none; /* Убираем точки */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+ul li {
+    /* Убираем фиксированную ширину, чтобы кнопки были аккуратными */
+}
+
+/* Стилизуем ссылки внутри списка точно так же, как теги <button> */
+ul li a {
+    display: inline-block;
+    padding: 8px 16px; /* Такие же отступы, как у button */
+    border: 2px solid yellow;
+    border-radius: 8px;
+    background-color: rgb(175, 120, 0); /* Такой же цвет фона */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+/* Эффект при наведении такой же, как у button:hover */
+ul li a:hover {
+    background-color: yellow;
+    color: black;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+/* ===== ФОРМЫ И ИНПУТЫ ===== */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+textarea {
+    padding: 8px 12px;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    background-color: #3a3a3a;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #fff;
+    box-shadow: 0 0 5px yellow;
+}
+
+/* Специфично для инпутов внутри таблицы, чтобы они не растягивались слишком сильно */
+table input[type="text"] {
+    width: 90%;
+    min-width: 150px;
+}
+
+/* ===== КНОПКИ ===== */
+button, .btn {
+    padding: 8px 16px;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    background-color: rgb(175, 120, 0); /* Оранжево-коричневый */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+button:hover, .btn:hover {
+    background-color: yellow;
+    color: black;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Кнопка сброса/ссылка как кнопка */
+a[href="/categories/list"] {
+    padding: 8px 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    color: #ccc;
+}
+a[href="/categories/list"]:hover {
+    border-color: red;
+    color: red;
+    background: transparent;
+}
+
+/* ===== ТАБЛИЦЫ ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #3a3a3a;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    overflow: hidden; /* Чтобы радиус работал на углах таблицы */
+}
+
+th, td {
+    border: 1px solid #555; /* Более тонкие внутренние границы */
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: rgb(175, 120, 0);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid yellow;
+}
+
+tr:nth-child(even) {
+    background-color: #424242;
+}
+
+tr:hover {
+    background-color: #4a4a4a;
+}
+
+/* Исправление для форм внутри таблицы, чтобы они занимали всю ячейку */
+td form {
+    margin: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+/* ===== БЛОК ДОБАВЛЕНИЯ (скрытый) ===== */
+#addForm {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px dashed yellow;
+    border-radius: 15px;
+    background-color: #333;
+    display: none; /* По умолчанию скрыт, управляется JS */
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#addForm h3 {
+    margin-top: 0;
+    color: #fff;
+}
+
+/* ===== ПАГИНАЦИЯ ===== */
+div[style*="margin-top:20px"] {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px !important;
+    padding-top: 15px;
+    border-top: 1px solid #555;
+}
+
+div[style*="margin-top:20px"] a {
+    padding: 8px 15px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    background-color: rgb(175, 120, 0);
+    color: white;
+    font-weight: bold;
+}
+
+div[style*="margin-top:20px"] a:hover {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+}
+
+/* ===== АДАПТИВНОСТЬ (Mobile) ===== */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    /* На мобильных формы в одну колонку */
+    form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    input, button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Таблица становится прокручиваемой или блочной */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        border: 2px solid yellow;
+        border-radius: 8px;
+        background: #3a3a3a;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #555;
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+    }
+
+    td:before {
+        content: attr(data-label); /* Можно добавить data-label в HTML, если нужно */
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+        color: yellow;
+    }
+
+    /* Убираем отступ слева для кнопок действий */
+    td:last-child {
+        padding-left: 12px;
+        text-align: center;
+    }
+
+}

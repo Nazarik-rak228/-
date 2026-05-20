@@ -1,0 +1,80 @@
+﻿@using IhateThisErrorsAndBug.Models
+
+@{
+
+
+    var orders = ViewBag.Orders as List<Order>;
+    var items = ViewBag.Items as List<OrderItem>;
+    var products = ViewBag.Products as List<Product>;
+}
+
+<h2>История заказов</h2>
+
+@if (orders == null || !orders.Any())
+{
+    <p>У вас пока нет заказов.</p>
+
+    
+    <a asp-controller="Main" asp-action="main">
+        Перейти в каталог
+    </a>
+}
+else
+{
+    @foreach (var order in orders)
+    {
+        <div class="order-card" style="padding:15px; border:1px solid gray; margin-bottom:20px; border-radius:10px;">
+            <h3>
+                Заказ #@order.OrderId
+            </h3>
+            <p>
+                Дата:
+                @order.OrderDate.ToString("dd.MM.yyyy HH:mm")
+            </p>
+            <p>
+                Сумма:
+                <strong>@order.TotalAmount ₽</strong>
+            </p
+            <hr />
+
+            @{
+                var orderItems = items
+                .Where(i => i.OrderId == order.OrderId)
+                .ToList();
+            }
+
+            @foreach (var item in orderItems)
+            {
+                var product = products
+                .FirstOrDefault(p => p.ProductId == item.ProductId);
+                <div style="display:flex; gap:15px; margin-bottom:15px; align-items:center;">
+                    <img src="@Url.Action("GetImage", "Main", new { productId = item.ProductId })"
+                         width="120"
+                         height="120"
+                         style="object-fit:cover; border-radius:10px;" />
+                    <div>
+                        <h4>
+                            @(product?.ProductName ?? "Неизвестный товар")
+                        </h4>
+                        <p>
+                            Количество:
+                            @item.Quantity
+                        </p>
+                        <p>
+                            Цена:
+                            @item.PriceAtPurchase ₽
+                        </p>
+                        <p>
+                            Итого:
+                            @(item.Quantity* item.PriceAtPurchase) ₽
+                        </p>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+}
+
+<a asp-controller="Main" asp-action="main">
+    ← Назад в каталог
+</a>

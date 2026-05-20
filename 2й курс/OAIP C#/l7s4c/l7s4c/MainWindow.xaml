@@ -1,0 +1,63 @@
+﻿<Window x:Class="l7s4c.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:l7s4c"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" KeyDown="Window_KeyDown" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*"></RowDefinition> 
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0" >
+            <MenuItem Header="Заливка" >
+                <MenuItem Header="_Красный" Click="MenuItem_Click"   />
+                <MenuItem Header="_Зеленый" Click="MenuItem_Click_1 " InputGestureText="Ctrl+G"/>
+                <MenuItem Header="_Синий" Click="MenuItem_Click_2"/> //сверху подсказка о горячей
+            </MenuItem>
+            <MenuItem Header="Рамка">
+                <MenuItem Header="_Красный" Click="MenuItem_Click_3" />
+                <MenuItem Header="_Зеленый" Click="MenuItem_Click_4"/>
+                <MenuItem Header="_Синий" Click="MenuItem_Click_5"/>
+            </MenuItem>
+            <MenuItem Header="Толщина">
+                <MenuItem Header="5" Checked="MenuItem_Checked" Click="MenuItem_Click_6" />
+                <MenuItem Header="10"/>
+                <MenuItem Header="15"/>
+            </MenuItem>
+        </Menu>
+        <Border x:Name="Box" Grid.Row="1" 
+                Width="500"
+                Height="238"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="Yellow"
+                BorderThickness="51"
+                BorderBrush="Black"
+                >
+            <Border.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Заливка" >
+                        <MenuItem Header="_Красный" Click="MenuItem_Click"   />
+                        <MenuItem Header="_Зеленый" Click="MenuItem_Click_1 " InputGestureText="Ctrl+G"/>
+                        <MenuItem Header="_Синий" Click="MenuItem_Click_2"/> //сверху подсказка о горячей
+                    </MenuItem>
+                    <Separator/>
+                    <MenuItem Header="Рамка">
+                        <MenuItem Header="_Красный" Click="MenuItem_Click_3" />
+                        <MenuItem Header="_Зеленый" Click="MenuItem_Click_4"/>
+                        <MenuItem Header="_Синий" Click="MenuItem_Click_5"/>
+                    </MenuItem>
+                    <MenuItem Header="Толщина">
+                        <MenuItem Header="5" Checked="MenuItem_Checked" Click="MenuItem_Click_6" />
+                        <MenuItem Header="10"/>
+                        <MenuItem Header="15"/>
+                    </MenuItem>
+                </ContextMenu>
+            </Border.ContextMenu>
+        </Border>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="93,77,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click"/>
+    </Grid>
+</Window>

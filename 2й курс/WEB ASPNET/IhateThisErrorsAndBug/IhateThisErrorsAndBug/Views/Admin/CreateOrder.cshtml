@@ -1,0 +1,22 @@
+﻿@model IhateThisErrorsAndBug.Models.Order
+
+<h2>Добавить заказ</h2>
+
+<form method="post">
+    <label>User ID</label>
+    <input type="number" asp-for="UserId" />
+    <span asp-validation-for="UserId" class="text-danger"></span>
+
+
+    <label>Дата заказа</label>
+    <input type="datetime-local" asp-for="OrderDate" />
+    <span asp-validation-for="OrderDate" class="text-danger"></span>
+
+
+    <label>Сумма</label>
+    <input type="number" step="1.0" asp-for="TotalAmount" />
+    <span asp-validation-for="TotalAmount" class="text-danger"></span>
+
+
+    <button type="submit">Добавить</button>
+</form>

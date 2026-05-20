@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<h2>Регистрация</h2>
+
+
+
+<form asp-action="Register" method="post">
+
+        <label>Логин</label>
+        <input name="username" class="form-control" required />
+
+        <label>Пароль</label>
+        <input name="password" type="password" class="form-control" required />
+      
+    <br />
+    <button type="submit">Зарегистрироваться</button>
+</form>
+
+<p><a asp-action="Login">Уже есть аккаунт? Войти</a></p>

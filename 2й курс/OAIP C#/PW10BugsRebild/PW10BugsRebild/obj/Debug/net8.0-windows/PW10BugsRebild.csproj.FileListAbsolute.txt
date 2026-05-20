@@ -1,0 +1,42 @@
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\bin\Debug\net8.0-windows\PW10BugsRebild.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\bin\Debug\net8.0-windows\PW10BugsRebild.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\bin\Debug\net8.0-windows\PW10BugsRebild.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\bin\Debug\net8.0-windows\PW10BugsRebild.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\bin\Debug\net8.0-windows\PW10BugsRebild.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild_MarkupCompile.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild_MarkupCompile.lref
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.g.resources
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\refint\PW10BugsRebild.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\ref\PW10BugsRebild.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\bin\Debug\net8.0-windows\PW10BugsRebild.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\bin\Debug\net8.0-windows\PW10BugsRebild.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\bin\Debug\net8.0-windows\PW10BugsRebild.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\bin\Debug\net8.0-windows\PW10BugsRebild.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\bin\Debug\net8.0-windows\PW10BugsRebild.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild_MarkupCompile.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild_MarkupCompile.lref
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.g.resources
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\refint\PW10BugsRebild.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\PW10BugsRebild.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ОАИП Андрей Андреевич\PW10BugsRebild\PW10BugsRebild\obj\Debug\net8.0-windows\ref\PW10BugsRebild.dll

@@ -1,0 +1,14 @@
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\bin\Debug\net8.0\Урок 1 Андрей А..exe
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\bin\Debug\net8.0\Урок 1 Андрей А..deps.json
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\bin\Debug\net8.0\Урок 1 Андрей А..runtimeconfig.json
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\bin\Debug\net8.0\Урок 1 Андрей А..dll
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\bin\Debug\net8.0\Урок 1 Андрей А..pdb
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\obj\Debug\net8.0\Урок 1 Андрей А..GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\obj\Debug\net8.0\Урок 1 Андрей А..AssemblyInfoInputs.cache
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\obj\Debug\net8.0\Урок 1 Андрей А..AssemblyInfo.cs
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\obj\Debug\net8.0\Урок 1 Андрей А..csproj.CoreCompileInputs.cache
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\obj\Debug\net8.0\Урок 1 Андрей А..dll
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\obj\Debug\net8.0\refint\Урок 1 Андрей А..dll
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\obj\Debug\net8.0\Урок 1 Андрей А..pdb
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\obj\Debug\net8.0\Урок 1 Андрей А..genruntimeconfig.cache
+C:\Users\nazar\source\repos\Урок 1 Андрей А\Урок 1 Андрей А\obj\Debug\net8.0\ref\Урок 1 Андрей А..dll

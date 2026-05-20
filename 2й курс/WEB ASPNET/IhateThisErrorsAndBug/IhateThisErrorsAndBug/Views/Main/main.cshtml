@@ -1,0 +1,76 @@
+﻿@model IEnumerable<IhateThisErrorsAndBug.Models.Product>
+@{
+    var categories = ViewBag.Categories as IEnumerable<IhateThisErrorsAndBug.Models.Category>;
+}
+
+
+
+<h1> Вы смотрите наш каталог товаров : ) </h1>
+<form method="get">
+    <input type="text" name="searchTerm" value="@ViewBag.searchTerm" placeholder="Поиск по названию"/>
+    <select name="categoryId">
+        <option value="">Все категории</option>
+        @foreach (var categori in ViewBag.Categories)
+        {
+            <option value="@categori.CategoryId" selected="@(ViewBag.CategoryId == categori.CategoryId)">
+                @categori.CategoryName
+            </option>
+        }
+    </select>
+    <select name="sortBy">
+        <option value="" >Не сортировать</option>
+        <option value="Price_asc" selected="@(ViewBag.sortBy == "Price_asc")">Сначала дешевле</option>
+        <option value="Price_desc" selected="@(ViewBag.sortBy == "Price_desc")"> Сначала дороже</option>
+        <option value="Name_asc" selected="@(ViewBag.sortBy == "Name_asc")">А - Я</option>
+        <option value="Name_desc" selected="@(ViewBag.sortBy == "Name_desc")">Я - А</option>
+    </select>
+    <button type="submit">Применить</button>
+</form>
+<hr />
+
+<div class="ProductsList">
+    
+   
+    @foreach(var p in Model)
+    {
+        <div class="card" style="
+        text-align:center;
+        border:  solid 5px;
+        border-radius:20px;
+        border-color:grey;">
+            @{var cat = categories.FirstOrDefault(c => c.CategoryId == p.CategoryId)?.CategoryName ?? "-";}
+            <h3>@p.ProductName</h3>
+            <img src="@Url.Action("GetImage", "Main", new { productId = p.ProductId })" alt="@p.ProductName" class="productImage" style=" max-width:400px; max-height:400px;min-width:400px; min-height:400px; border:solid 2px; border-radius:20px;" />
+            <p>Категория: @cat</p>
+            <p> @p.Price ₽</p>
+            <p>Описание: @p.Discription</p>
+            <a class="tda" class-"add" asp-controller="Main" asp-action="Add" asp-route-productId="@p.ProductId">Добавить в корзину</a>
+        </div>
+    }
+    
+
+</div>
+<hr />
+<div class="page">
+    @if (ViewBag.page > 1)
+    {   
+        <a asp-action="main" asp-route-page="@ViewBag.page -1" asp-route-search="@ViewBag.searchTerm" asp-route-categoryId="@ViewBag.categoryId" asp-route-sortBy="@ViewBag.sortBy"> ← </a>
+    }
+    @for (int i = 1; i <= ViewBag.total; i++)
+    {
+        @if (i == ViewBag.page)
+        {
+            <span>@i</span>
+        }
+        else
+        {
+            <a asp-action="main" asp-route-page="@i" asp-route-searchTerm="@ViewBag.searchTerm" asp-route-categoryId="@ViewBag.categoryId" asp-route-sortBy="@ViewBag.sortBy">@i</a>
+        }
+    }
+    @if (ViewBag.page > 1)
+    {
+        <a asp-action="main" asp-route-page="@ViewBag.page +1" asp-route-search="@ViewBag.searchTerm" asp-route-categoryId="@ViewBag.categoryId" asp-route-sortBy="@ViewBag.sortBy"> → </a>
+    }
+    
+    
+</div>

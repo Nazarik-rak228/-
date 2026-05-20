@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\PW13c\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3107C99E-6272-4B20-84C6-6A808679B363}|PW13c\\PW13c.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\oaip c#\\pw13c\\pw13c\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3107C99E-6272-4B20-84C6-6A808679B363}|PW13c\\PW13c.csproj|solutionrelative:pw13c\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3107C99E-6272-4B20-84C6-6A808679B363}|PW13c\\PW13c.csproj|c:\\users\\nazar\\documents\\study\\p-8-24-study\\2\u0439 \u043A\u0443\u0440\u0441\\oaip c#\\pw13c\\pw13c\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3107C99E-6272-4B20-84C6-6A808679B363}|PW13c\\PW13c.csproj|solutionrelative:pw13c\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\PW13c\\PW13c\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PW13c\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\PW13c\\PW13c\\MainWindow.xaml",
+              "RelativeToolTip": "PW13c\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-02T08:24:21.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\PW13c\\PW13c\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PW13c\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\nazar\\Documents\\study\\P-8-24-Study\\2\u0439 \u043A\u0443\u0440\u0441\\OAIP C#\\PW13c\\PW13c\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PW13c\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T08:24:21.173Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

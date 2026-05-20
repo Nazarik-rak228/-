@@ -1,0 +1,30 @@
+﻿@model List<IhateThisErrorsAndBug.Models.Product>
+
+<h2>Товары</h2>
+
+<a asp-action="CreateProduct">Добавить товар</a>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Название</th>
+        <th>Цена</th>
+        <th>CategoryId</th>
+        <th>Действия</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ProductId</td>
+            <td>@item.ProductName</td>
+            <td>@item.Price</td>
+            <td>@item.CategoryId</td>
+            <td>
+                <a asp-action="EditProduct" asp-route-id="@item.ProductId">Изменить</a>
+                <a asp-action="DeleteProduct" asp-route-id="@item.ProductId" onclick="return confirm('Точно хочешь удалить этот товар?')">Удалить</a>
+            </td>
+        </tr>
+    }
+</table>
+<a asp-controller="Admin" asp-action="Index">Назад в админ панель</a>

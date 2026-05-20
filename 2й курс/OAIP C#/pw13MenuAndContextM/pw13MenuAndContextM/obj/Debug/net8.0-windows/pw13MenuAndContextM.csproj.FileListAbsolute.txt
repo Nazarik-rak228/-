@@ -1,0 +1,42 @@
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM_MarkupCompile.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM_MarkupCompile.lref
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\bin\Debug\net8.0-windows\pw13MenuAndContextM.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\bin\Debug\net8.0-windows\pw13MenuAndContextM.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\bin\Debug\net8.0-windows\pw13MenuAndContextM.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\bin\Debug\net8.0-windows\pw13MenuAndContextM.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\bin\Debug\net8.0-windows\pw13MenuAndContextM.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.g.resources
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\refint\pw13MenuAndContextM.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\ASPNET\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\ref\pw13MenuAndContextM.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\bin\Debug\net8.0-windows\pw13MenuAndContextM.exe
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\bin\Debug\net8.0-windows\pw13MenuAndContextM.deps.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\bin\Debug\net8.0-windows\pw13MenuAndContextM.runtimeconfig.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\bin\Debug\net8.0-windows\pw13MenuAndContextM.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\bin\Debug\net8.0-windows\pw13MenuAndContextM.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM_MarkupCompile.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM_MarkupCompile.lref
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.g.resources
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.AssemblyInfoInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.AssemblyInfo.cs
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.sourcelink.json
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\refint\pw13MenuAndContextM.dll
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.pdb
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\pw13MenuAndContextM.genruntimeconfig.cache
+C:\Users\nazar\Documents\study\P-8-24-Study\2й курс\OAIP C#\pw13MenuAndContextM\pw13MenuAndContextM\obj\Debug\net8.0-windows\ref\pw13MenuAndContextM.dll

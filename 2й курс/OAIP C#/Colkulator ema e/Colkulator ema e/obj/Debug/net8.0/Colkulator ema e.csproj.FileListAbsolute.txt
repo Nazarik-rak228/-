@@ -1,0 +1,4 @@
+C:\Users\nazar\source\repos\Colkulator ema e\Colkulator ema e\obj\Debug\net8.0\Colkulator ema e.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\source\repos\Colkulator ema e\Colkulator ema e\obj\Debug\net8.0\Colkulator ema e.AssemblyInfoInputs.cache
+C:\Users\nazar\source\repos\Colkulator ema e\Colkulator ema e\obj\Debug\net8.0\Colkulator ema e.AssemblyInfo.cs
+C:\Users\nazar\source\repos\Colkulator ema e\Colkulator ema e\obj\Debug\net8.0\Colkulator ema e.csproj.CoreCompileInputs.cache

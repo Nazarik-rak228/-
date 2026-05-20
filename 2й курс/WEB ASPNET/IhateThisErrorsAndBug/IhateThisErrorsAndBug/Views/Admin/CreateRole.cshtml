@@ -1,0 +1,11 @@
+﻿@model IhateThisErrorsAndBug.Models.Role
+
+<h2>Добавить роль</h2>
+
+<form method="post">
+    <label>Название</label>
+    <input type="text" asp-for="RoleName" />
+    <span asp-validation-for="RoleName" class="text-danger"></span>
+
+    <button type="submit">Добавить</button>
+</form>

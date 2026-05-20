@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Пользователи</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<h1>Пользователи</h1>
+
+<!-- Форма поиска -->
+<form th:action="@{/users/list}" method="get">
+    По ID: <input type="number" name="id" th:value="${searchId}" style="width:80px"/>
+    По username: <input type="text" name="username" th:value="${searchUsername}" placeholder="Имя пользователя"/>
+    <button type="submit">Найти</button>
+    <a th:href="@{/users/list}" >Сбросить</a> <!-- Переписал на Thymeleaf для сброса -->
+</form>
+
+<br>
+<button onclick="document.getElementById('addForm').style.display='block'">Добавить пользователя</button>
+
+<!-- Таблица пользователей -->
+<table border="1" style="margin-top: 15px;">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Role ID</th>
+        <th>Действия</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user : ${users}">
+        <td th:text="${user.id}"></td>
+        <td th:text="${user.username}"></td>
+        <td th:text="${user.email}"></td>
+        <!-- Важно: обращаемся к полю id внутри объекта role -->
+        <td th:text="${user.role != null ? user.role.id : 'Нет роли'}"></td>
+        <td>
+            <!-- Форма редактирования -->
+            <form th:action="@{/users/update}" method="post" style="display:inline;">
+                <input type="hidden" name="id" th:value="${user.id}">
+                <input type="text" name="username" th:value="${user.username}" required>
+                <input type="email" name="email" th:value="${user.email}" required>
+                <input type="password" name="password" placeholder="Новый пароль" th:value="${user.password}" required>
+                <select name="roleId" required>
+                    <option th:each="role : ${roles}"
+                            th:value="${role.id}"
+                            th:text="${role.rolName}">
+                    </option>
+                </select>
+
+                <button type="submit">Сохранить</button>
+            </form>
+            <div th:if="${param.error}" style="color:red">
+                Ошибка валидации
+            </div>
+            <!-- Форма удаления -->
+            <form th:action="@{/users/delete}" method="post" style="display:inline;">
+                <input type="hidden" name="id" th:value="${user.id}">
+                <button type="submit">Удалить</button>
+            </form>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<div style="margin-top:20px;">
+
+    <!-- Назад -->
+    <a th:if="${currentPage > 1}"
+       th:href="@{/users/list(page=${currentPage - 1}, username=${searchUsername}, id=${searchId})}">
+        ← Назад
+    </a>
+
+    <!-- Вперёд -->
+    <a th:if="${currentPage < totalPages}"
+       th:href="@{/users/list(page=${currentPage + 1}, username=${searchUsername}, id=${searchId})}">
+        Вперёд →
+    </a>
+
+</div>
+<!-- Форма добавления -->
+<div id="addForm" style="display:none; margin-top:20px; border:1px solid #ccc; padding:15px;">
+    <h3>Добавить пользователя</h3>
+    <form th:action="@{/users/add}" method="post">
+        Username: <input type="text" name="username" required><br>
+        Email: <input type="email" name="email" required><br>
+        Password: <input type="password" name="password" required><br>
+        Role ID: <input type="number" name="roleId" required><br><br> <!-- Изменено на roleId -->
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+
+</body>
+</html>
